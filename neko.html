@@ -1,0 +1,34 @@
+<!DOCUMENT html>
+<html>
+	<head>
+		<title>PIMG</title>
+		<script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
+		<script src="js/aframe-animation-component.js"></script>
+    	<script src="js/aframe-hyperlink.js"></script>
+    	<script src="js/sw-load.js" data-service-worker="../sw.js" data-service-worker-scope="../"></script>
+	</head>
+	<body>
+		<a-scene>
+			<a-asset>
+				<video id="vid" src="vids/maneki-neko-360.mp4" autoplay loop crossorigin></video>
+			</a-asset>
+
+
+
+
+			<a-entity id="link-box" position="0 -100 -420" scale="10 10 10" rotate="0 0 0" geometry="box" href="work.html">
+				<a-animation attribute="rotation"
+	               dur="10000"
+	               fill="forwards"
+	               to="0 360 0"
+	               repeat="indefinite"></a-animation>
+			</a-entity>
+
+			<a-videosphere src="#vid" rotation="0 -90 1"></a-videosphere>
+
+			<a-entity position="0 0.75 0" camera look-controls wasd-controls>
+	              <a-cursor material="color: yellow; shader: flat"></a-cursor>
+	            </a-entity>
+		</a-scene>
+	</body>
+</html>

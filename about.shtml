@@ -1,0 +1,51 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PIMG</title>
+		<script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="PIMG.css">
+	</head>
+  <body>
+  
+    <main id="main" class="main">
+      <aside class="sidebar">
+        <div class="sidebar__wrap">
+          <div class="sidebar__wrap__inner">
+          <!--#include file = "top-menu.html" -->
+          </div>
+        </div>
+        <div style="background-color:none; margin:auto; width:125px; padding-top:20px"></div>
+        <div style="background-color:purple; opacity:0.55; margin:auto; padding:60px; width:750px; height:637px; overflow:inherit; text-align:justify; color:white; font-family:Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; font-size:0.85em"><p>The awe-striking power of virtual reality is evident to most anyone who tries it: a visceral feeling of being immersed in a fantasy, a full body epiphany one must experience first hand to believe.</p><br><br>
+
+<p>For the members of PIMG, these technologies represent nascent possibilities igniting our imagination. We see them as precipitating a paradigm shift toward a new era of multi-sensory communication, with uniquely empathic, beatific, and therapeutic potential­.</p> <br><br>
+
+<p>Offsetting this promise however are questions of access, accountability, Privacy, and human transmutability: who will have means to these technologies? How will individuals be altered or compromised by their use? Will continued reliance on high-priced software and hardware result in asymetrical communication in the metaverse?</p><br><br>
+
+<p>It’s this sort of criticality which PIMG wishes to bring to public discourse through immersive realm-builing, ardent experimentation, and  visceral installations that bridge the virtual and the physical.</p><br></div>
+      </aside>
+      <section class="section__container">
+      	<div class="work__container">
+      		<!--#include file = "numbers.html" -->
+      	</div>
+      </section>
+    <!--EXAMPLE IFRAME-->
+      <div id="vr-container">
+      <i-frame id="vr-iframe" class="vr__iframe" allowfullscreen="yes" scrolling="no" allowvr="yes" src="https://aframe.io/aframe/examples/boilerplate/360-video/" width="100%" height="100%">
+      	
+      	<!DOCTYPE html>
+      	<html class="a-html">
+	      	<head>
+	      		<title>PIMG</title>
+	      	</head>
+	      	<body>
+	      	
+	        <!--#include file = "aframe.html" -->
+	    	</body>
+	    </html>	
+	 
+      </i-frame>
+    </div>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PIMG</title>
+		<script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="PIMG.css">
+	</head>
+  <body>
+  
+    <main id="main" class="main">
+      <aside class="sidebar">
+        <div class="sidebar__wrap">
+          <div class="sidebar__wrap__inner">
+          <!--#include file = "top-menu.html" -->
+          </div>
+        </div>
+        <div style="background-color:none; margin:auto; width:125px; padding-top:20px"></div>
+        <div style="background-color:purple; opacity:0.55; margin:auto; padding:60px; width:900px; height:600px; overflow:inherit; text-align:justify; color:white; font-family:Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; font-size:0.85em">
+        <table style="margin-top:137px">
+        
+                <tr align="center">
+                <td><a href="http://xhurch.net">Matt<br>Henderson</a></td>
+                <td><a href="https://www.patreon.com/user/community?u=2514667">Seanna<br>Musgrave</a></td>
+                <td><a href="http://damonpidhajecky.com/">Damon<br>Pidhajecky</a></td>
+                <td><a href="https://liooil.space">Stephanie<br>Mendoza</a></td>
+                </tr>
+                <tr align="center">
+                
+                <td><a href="https://vimeo.com/michellemckay">Michelle<br>Mckay</a></td>
+                <td><a href="http://thedreaminghour.com/tumblr/">Scott<br>Mayroal</a></td>
+                <td><a href="https://neunzert.myportfolio.com/">Sonya<br>Neunzert</a></td>
+                <td><a href="http://signalculture.org/dave-mosier.html#.">Dave<br>Mosier</a></td>
+                </tr>
+                <tr align="center">
+                <td><a href="http://officialmichaelgreen.com/OfficialMichaelGreen">Michael<br>Green</a></td>
+                <td><a href="http://www.marknerys.com/">Mark<br>Nerys</a></td>
+                <td><a href="https://www.linkedin.com/in/joel-delight">Joel<br>Delight</a></td>
+                <td><a href="https://www.linkedin.com/in/wolfgangwebdev">Wolfgang<br>Werneke</a></td>
+                </tr>
+            </table>
+        </div>
+      </aside>
+      <section class="section__container">
+      	<div class="work__container">
+      		<!--#include file = "numbers.html" -->
+      	</div>
+      </section>
+    <!--EXAMPLE IFRAME-->
+      <div id="vr-container">
+      <i-frame id="vr-iframe" class="vr__iframe" allowfullscreen="yes" scrolling="no" allowvr="yes" src="https://aframe.io/aframe/examples/boilerplate/360-video/" width="100%" height="100%">
+      	
+      	<!DOCTYPE html>
+      	<html class="a-html">
+	      	<head>
+	      		<title>PIMG</title>
+	      	</head>
+	      	<body>
+	      	
+	        <!--#include file = "aframe.html" -->
+	    	</body>
+	    </html>	
+	 
+      </i-frame>
+    </div>
+    </main>
+  </body>
+</html>
