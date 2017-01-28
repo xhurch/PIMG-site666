@@ -12,8 +12,8 @@
       
       body{
         font-family: andale Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
-		background:#000000;
-		text-shadow: 1px 1px #000;
+		    background:#000000;
+		    text-shadow: 1px 1px #000;
         }  
 
       li{
@@ -22,8 +22,8 @@
        	margin: 1em;
        	padding: .5em;
        	text-align: left;
-		text-shadow: 1px 1px #000;
-		box-shadow: 1px 1px #000;
+		    text-shadow: 1px 1px #000;
+		    box-shadow: 1px 1px #000;
 		
        }
 
