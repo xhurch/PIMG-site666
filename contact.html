@@ -1,0 +1,74 @@
+<!-- contacts.html -->
+<!-- exhibitions-awards.html -->
+<!-- members.html -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>C O N T A C T</title>
+    <link rel="stylesheet" type="text/css" href="PIMG.css">
+		<script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
+	</head>
+  <body>
+    <main id="main" class="main">
+      <aside class="sidebar">
+        <div class="sidebar__wrap">
+          <div class="sidebar__wrap__inner">
+          	<a href="index.html">
+	            <header class="PIMG-title">
+	              <h2 class="page-title">P I M G</h2>
+	            </header>
+	        </a>    
+            <div class="menu__list">
+<!--             	<h2 class="page-title">Explore</h2>
+ -->            <ul class="subnav">
+            		<li id="about"><a href="about.html">About</a></li>
+            		<li id="work"><a href="work.html">Work</a></li>
+            		<li id="members"><a href="members.html">Members</a></li>
+            		<li id="events"><a href="events.html">Events</a></li>
+            		<li id="ex-aw"><a href="exhibitions-awards.html">Achievements</a></li>
+            		<li id="gear"><a href="gear.html">Gear</a></li>
+            		<li id="friends"><a href="friends.html">Friends</a></li>
+            		<li id="contact"><a href="contact.html">Contact</a></li>
+            	</ul>
+            </div>
+          </div>
+        </div>
+      </aside>
+    
+    
+    <!--EXAMPLE IFRAME-->
+      <div id="vr-container">
+      <i-frame id="vr-iframe" class="vr__iframe" allowfullscreen="yes" scrolling="no" allowvr="yes" src="https://aframe.io/aframe/examples/boilerplate/360-video/" width="100%" height="100%">
+      	
+      	<!DOCTYPE html>
+      	<html class="a-html">
+	      	<head>
+	      		<title>PIMG</title>
+	      	</head>
+	      	<body>
+	      	
+	        <a-scene vr-mode-ui="enabled: true">
+	          <a-assets>
+	            <video id="vid" src="" autoplay loop crossorigin></video>
+	            <img id="PIMG-title" src="images/PIMG.png">
+	            <img id="PIMG-logo" src="images/pimg-logo-full.png">
+	          </a-assets>
+	          
+	          <a-image src="#PIMG-title" width="12" position="0 5.5 -7.32" rotation="" scale="1.1 2.1 1.1"></a-image>
+	          <!-- <a-image src="#PIMG-logo" width="12" position="0 3 -6.72" rotation="" scale="1 1.5 1"></a-image> -->
+	          
+	          
+	            <a-entity position="0 0.75 0" camera look-controls wasd-controls>
+	              <a-cursor material="color: red; shader: flat"></a-cursor>
+	            </a-entity>
+	          
+	          <a-videosphere src="#vid" rotation="0 -80 0"></a-videosphere>
+	        </a-scene>
+	    	</body>
+	    </html>	
+	 
+      </i-frame>
+    </div>
+    </main>
+  </body>
+</html>
