@@ -11,14 +11,16 @@
       <aside class="sidebar">
         <div class="sidebar__wrap">
           <div class="sidebar__wrap__inner">
-          <!--#include file = "top-menu.html" -->
+          <!--#include file="top-menu.html" -->
           </div>
         </div>
       </aside>
       <section class="section__container">
       	<div class="work__container">
-      		<!--#include file = "numbers.html" -->
-      	</div>
+
+      		<!--#include file="numbers.html"-->
+      	
+        </div>
       </section>
     
     
@@ -33,7 +35,7 @@
 	      	</head>
 	      	<body>
 	      	
-	        <!--#include file = "aframe.html" -->
+	        <!--#include file="aframe.html"-->
 	    	</body>
 	    </html>	
 	 

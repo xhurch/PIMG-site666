@@ -12,13 +12,13 @@
       <aside class="sidebar">
         <div class="sidebar__wrap">
           <div class="sidebar__wrap__inner">
-          <!--#include file = "top-menu.html" -->
+          <!--#include file="top-menu.html"-->
           </div>
         </div>
         <div style="background-color:none; margin:auto; width:125px; padding-top:20px"></div>
         <div style="background-color:purple; opacity:0.55; margin:auto; padding:385px 225px 150px 225px; width:900px; height:600px; overflow:inherit; text-align:justify; color:white; font-family:Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; font-size:0.85em">
         
-                <ul style="list-style:none; align-content:center">
+          <ul style="list-style:none; align-content:center">
             <li style="align-content:center; text-align:center"><a href="mailto:inquiry@pdximmersive.media" style="text-align:center">inquiry @ pdximmersive.media</a></li>
            </ul>
         
@@ -26,7 +26,7 @@
       </aside>
       <section class="section__container">
       	<div class="work__container">
-      		<!--#include file = "numbers.html" -->
+      		<!--#include file="numbers.html"-->
       	</div>
       </section>
     <!--EXAMPLE IFRAME-->
@@ -40,7 +40,7 @@
 	      	</head>
 	      	<body>
 	      	
-	        <!--#include file = "aframe.html" -->
+	        <!--#include file="aframe.html"-->
 	    	</body>
 	    </html>	
 	 
