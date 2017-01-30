@@ -55,6 +55,7 @@
                 <li class="nav-list" id="twitter"><a href="https://twitter.com/_pimg"><img src="images/twitter.png" id="social"></a></li>
                 <li class="nav-list" id="instagram"><a href="https://www.instagram.com/pdximmersivemediagroup/"><img src="images/instagram.png" id="social"></a></li>
                 <li class="nav-list" id="vimeo"><a href="https://vimeo.com/user47660576" ><img src="images/vimeo.png" id="social"></a></li>
+                <li class="nav-list" id="vimeo"><a href="https://www.patreon.com/pimg" ><img src="images/patreon.png" id="social"></a></li>
               </div> 
               <!-- --- --> 
             </ul>
