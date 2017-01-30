@@ -27,6 +27,17 @@
 		
        }
 
+      td {
+        display: inline-block; /*necessary*/
+        color: white;
+        margin: 1em;
+        padding: 1.5em;
+        text-align: center;
+        text-shadow: 1px 1px #000;
+        text-decoration: none;
+        align-content:center;
+      }
+
        p{
        	font-size: 1.2em;
        	letter-spacing: 3px;
@@ -246,7 +257,7 @@
 		}
 		
 /*MENU ITEMS*/
-
+  /*ALL CONTAINER*/
   /*ABOUT*/
     .about{
       display: inline;
@@ -259,8 +270,8 @@
       font-size: .85em;
       margin: auto;
     }
-
-    #about-container{
+    #container{
+      display: none;
       background: -webkit-linear-gradient(bottom,rgba(255,0,255,0),rgba(255,0,255,1)); 
       opacity:0.55; 
       margin:auto;
@@ -274,23 +285,13 @@
       text-align:justify; 
       color:white; 
       font-family:Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; 
-      font-size:0.85em
+      font-size:0.85em;
     }
 
   /*GROUP*/		
 		#group-members {
       height: 400px; /*your fixed height*/
     
-    }
- 		td {
-      display: inline-block; /*necessary*/
-	    color: white;
-      margin: 1em;
-      padding: 1.5em;
-   	  text-align: center;
-		  text-shadow: 1px 1px #000;
-		  text-decoration: none;
-		  align-content:center;
     }
 
 

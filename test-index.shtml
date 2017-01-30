@@ -13,9 +13,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script>
     $(document).ready(function(){
-        $("button").click(function(){
-            $("#about-container").fadeToggle();
-            //$("#group-container").fadeToggle();
+        $("#about-button").click(function(){
+            $("#container").fadeToggle();
         });
     });
     </script>
@@ -37,7 +36,7 @@
 
               <!-- NAV -->  
               <div class="w3-col m1 w3-center">
-                  <li class="nav-list" id="about"><button class="menu">About</button></li>
+                  <li class="nav-list" id="about"><button id="about-button" class="menu">About</button></li>
               </div>  
               <div class="w3-col m1 w3-center">
                 <li class="nav-list" id="members"><button class="menu">Group</button></li>
@@ -142,8 +141,7 @@
     </div>
 
       <!-- <div class="w3-col w3-container m10 l9"> -->
-        <div id="about-container">
-
+        <div id="container">
 
           <div id="about-text"><p>The awe-striking power of virtual reality is evident to most anyone who tries it: a visceral feeling of being immersed in a fantasy, a full body epiphany one must experience first hand to believe.</p><br><br>
 
@@ -152,7 +150,6 @@
           <p>Offsetting this promise however are questions of access, accountability, Privacy, and human transmutability: who will have means to these technologies? How will individuals be altered or compromised by their use? Will continued reliance on high-priced software and hardware result in asymetrical communication in the metaverse?</p><br><br>
 
           <p>It’s this sort of criticality which PIMG wishes to bring to public discourse through immersive realm-builing, ardent experimentation, and  visceral installations that bridge the virtual and the physical.</p><br></div>
-
 
         </div>
       
