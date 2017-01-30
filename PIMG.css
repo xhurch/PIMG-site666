@@ -255,6 +255,14 @@
 			padding-top: 30px;
 			padding-left: -7px;
 		}
+
+    .nav-nums{
+      color: white;
+      border: 2px solid white;
+      margin: 2em;
+      text-shadow: 1px 1px #000;
+      box-shadow: 1px 1px #000;
+    }
 		
 /*MENU ITEMS*/
   /*ALL CONTAINER*/
@@ -270,7 +278,7 @@
       font-size: .85em;
       margin: auto;
     }
-    #container{
+    .container{
       display: none;
       background: -webkit-linear-gradient(bottom,rgba(255,0,255,0),rgba(255,0,255,1)); 
       opacity:0.55; 
