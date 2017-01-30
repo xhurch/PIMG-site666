@@ -75,15 +75,8 @@
        	color: yellow;
 		    letter-spacing: 0.05em;
        }
-	   
-	   #social{
-		   width: 25px;
-		   height: 25px;
-		   text-decoration: none;
-		   position:absolute;
-		   margin-top:0px;
-		   margin-right:-100px;
-	   }
+
+/*TOP BAR*/	   
       .main{
         display: flex;
         height: 100%;
@@ -113,7 +106,7 @@
         opacity: 0.5;*/
         left: 1%;
         }
-    .sidebar__wrap__inner{
+       .sidebar__wrap__inner{
 		    padding-top: 7px;
        } 
        .top-menu{
@@ -128,7 +121,7 @@
 		    position:fixed;
 	
        }
-	   .PIMG-title{
+	     .PIMG-title{
        	font-size: 120%;
 		    left: 1%;
 		    margin: auto;
@@ -149,7 +142,8 @@
        	margin: .1em;
        	list-style-type: none;
        }
-	   
+
+/*VIDEO CSS*/	   
 	   .fullscreen-bg {
     	position: fixed;
     	top: 0;
@@ -209,7 +203,8 @@
     	height: 120%;
 		  z-index: -1;
 		}
-/*WORK PAGE*/
+
+/*SIDE BAR --- might be obsolete! */
 		.section__container{
 			position:absolute;
 			max-width: 70%;
@@ -250,18 +245,39 @@
 			padding-left: -7px;
 		}
 		
-		.about{
-			display: inline;
-			font-family: Orator;
+/*MENU ITEMS*/
+
+  /*ABOUT*/
+    .about{
+      display: inline;
+      font-family: Orator;
       src: url(fonts/oratorStd.otf);
-			text-decoration: none;
-			border: none;
-			box-shadow: none;
-			color: black;
-			font-size: .85em;
-			margin: auto;
-		}
-		
+      text-decoration: none;
+      border: none;
+      box-shadow: none;
+      color: black;
+      font-size: .85em;
+      margin: auto;
+    }
+
+    #about-container{
+      background: -webkit-linear-gradient(bottom,rgba(255,0,255,0),rgba(255,0,255,1)); 
+      opacity:0.55; 
+      margin:auto;
+      margin-top:10%; 
+      padding:60px; 
+      width:75%; 
+      height:75%;
+      position:relative;
+      z-index:2; 
+      overflow:inherit; 
+      text-align:justify; 
+      color:white; 
+      font-family:Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; 
+      font-size:0.85em
+    }
+
+  /*GROUP*/		
 		#group-members {
       height: 400px; /*your fixed height*/
     
@@ -276,17 +292,31 @@
 		  text-decoration: none;
 		  align-content:center;
     }
+
+
+  /*SOCIAL*/    
+    #social{
+       width: 25px;
+       height: 25px;
+       text-decoration: none;
+       position:absolute;
+       margin-top:0px;
+       margin-right:-100px;
+     }
 		
-/*ENTER VR BUTTON*/    
-.a-enter-vr {
-    font-family: sans-serif,monospace;
-    font-size: 13px;
-    width: 100%;
-    font-weight: 200;
-    line-height: 16px;
-    height: 10%;
-    position: absolute;
-    left: 75px;
-    bottom: 20px;
-}
+
+/*VR CSS*/
+
+  /*ENTER VR BUTTON*/    
+  .a-enter-vr {
+      font-family: sans-serif,monospace;
+      font-size: 13px;
+      width: 100%;
+      font-weight: 200;
+      line-height: 16px;
+      height: 10%;
+      position: absolute;
+      left: 75px;
+      bottom: 20px;
+  }
 			

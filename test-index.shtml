@@ -14,7 +14,8 @@
     <script>
     $(document).ready(function(){
         $("button").click(function(){
-            $("#div1").fadeToggle();
+            $("#about-container").fadeToggle();
+            //$("#group-container").fadeToggle();
         });
     });
     </script>
@@ -37,16 +38,15 @@
               <!-- NAV -->  
               <div class="w3-col m1 w3-center">
                   <li class="nav-list" id="about"><button class="menu">About</button></li>
-                  <!-- <li class="nav-list" id="about"><a class="menu" href="about.shtml" >About</a></li> -->
               </div>  
               <div class="w3-col m1 w3-center">
-                <li class="nav-list" id="members"><a class="menu" href="group.shtml" >Group</a></li>
+                <li class="nav-list" id="members"><button class="menu">Group</button></li>
               </div>  
               <div class="w3-col m2 w3-center">  
-                <li class="nav-list" id="past"><a class="menu" href="past.shtml" >Exhibitions &amp; Awards</a></li>
+                <li class="nav-list" id="past"><button class="menu">Exhibitions and Awards</button></li>
               </div>
               <div class="w3-col m1 w3-center">  
-                <li class="nav-list" id="contacts"><a class="menu" href="contact.shtml" >Contact</a></li>
+                <li class="nav-list" id="contacts"><button class="menu">Contact</button></li>
               </div>
               <!-- --- -->
 
@@ -142,9 +142,20 @@
     </div>
 
       <!-- <div class="w3-col w3-container m10 l9"> -->
-        <div id="div1" style="width:75%;height:400px;background-color:red;position:relative;z-index:2;margin:auto;margin-top:10%;">ABOUT</div>
-        <br> 
-      </div>
+        <div id="about-container">
+
+
+          <div id="about-text"><p>The awe-striking power of virtual reality is evident to most anyone who tries it: a visceral feeling of being immersed in a fantasy, a full body epiphany one must experience first hand to believe.</p><br><br>
+
+          <p>For the members of PIMG, these technologies represent nascent possibilities igniting our imagination. We see them as precipitating a paradigm shift toward a new era of multi-sensory communication, with uniquely empathic, beatific, and therapeutic potential­.</p> <br><br>
+
+          <p>Offsetting this promise however are questions of access, accountability, Privacy, and human transmutability: who will have means to these technologies? How will individuals be altered or compromised by their use? Will continued reliance on high-priced software and hardware result in asymetrical communication in the metaverse?</p><br><br>
+
+          <p>It’s this sort of criticality which PIMG wishes to bring to public discourse through immersive realm-builing, ardent experimentation, and  visceral installations that bridge the virtual and the physical.</p><br></div>
+
+
+        </div>
+      
     <!-- </div> -->    
 <!--/2-->    
     </main>
