@@ -9,7 +9,16 @@
     <script src="js/sw-load.js" data-service-worker="../sw.js" data-service-worker-scope="../"></script>
 		<link rel="stylesheet" type="text/css" href="PIMG.css">
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-	</head>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("#div1").fadeToggle();
+        });
+    });
+    </script>
+  </head>
   <body> 
     <main id="main" class="main">
 <!--1-->
@@ -17,12 +26,18 @@
       <aside class="sidebar">
         <div class="sidebar__wrap">
           <div class="sidebar__wrap__inner">
+
             <ul>
+              <!-- HEADER -->
               <div class="w3-col m4 w3-center">
                 <li class="nav-list" id="home"><a class="main" href="index.shtml" >Portland Immersive Media Group</a></li>
-              </div>  
+              </div>
+              <!-- --- -->
+
+              <!-- NAV -->  
               <div class="w3-col m1 w3-center">
-                  <li class="nav-list" id="about"><a class="menu" href="about.shtml" >About</a></li>
+                  <li class="nav-list" id="about"><button class="menu">About</button></li>
+                  <!-- <li class="nav-list" id="about"><a class="menu" href="about.shtml" >About</a></li> -->
               </div>  
               <div class="w3-col m1 w3-center">
                 <li class="nav-list" id="members"><a class="menu" href="group.shtml" >Group</a></li>
@@ -33,13 +48,18 @@
               <div class="w3-col m1 w3-center">  
                 <li class="nav-list" id="contacts"><a class="menu" href="contact.shtml" >Contact</a></li>
               </div>
+              <!-- --- -->
+
+              <!-- ICONS -->
               <div class="w3-col m3 w3-center">  
                 <li class="nav-list" id="steam"><a href="http://store.steampowered.com/steamvr" ><img src="images/steam.png" id="social"></a></li>
                 <li class="nav-list" id="twitter"><a href="https://twitter.com/_pimg"><img src="images/twitter.png" id="social"></a></li>
                 <li class="nav-list" id="instagram"><a href="https://www.instagram.com/pdximmersivemediagroup/"><img src="images/instagram.png" id="social"></a></li>
                 <li class="nav-list" id="vimeo"><a href="https://vimeo.com/user47660576" ><img src="images/vimeo.png" id="social"></a></li>
-              </div>  
+              </div> 
+              <!-- --- --> 
             </ul>
+
           </div>
         </div>
       </aside>
@@ -47,28 +67,35 @@
 <!--/1-->
 
 <!--2-->
+  <section class="section__container">
     <div class="w3-row">
+        <div class="w3-col w3-container m2">
+            <a href="leafblower.shtml" class="experience">01</a>
+            <a href="leafblowerballroom.shtml" class="experience">02</a>
+            <a href="maskgallery.shtml" class="experience">03</a>
+            <a href="ontologyofobjects.shtml" class="experience">04</a>
+            <a href="skybaptism.shtml" class="experience">05</a>
+            <a href="roseroom.shtml" class="experience">06</a>
+            <a href="leafblower.shtml" class="experience">07</a>
+        </div>
 
-        <div class="w3-col w3-container m5">
-
-        <section class="section__container">
+<!--   <section class="section__container">
       	<div class="work__container">
         
           <ul class="subnav">
-              <li id="about"><a href="leafblower.shtml">01</a></li>
-              <li id="work"><a href="leafblowerballroom.shtml">02</a></li>
-              <li id="members"><a href="maskgallery.shtml">03</a></li>
-              <li id="events"><a href="ontologyofobjects.shtml">04</a></li>
-              <li id="ex-aw"><a href="skybaptism.shtml">05</a></li>
-              <li id="gear"><a href="roseroom.shtml">06</a></li>
-              <li id="friends"><a href="maryvoid.shtml">07</a></li>
-              <!-- <li id="contact"><a href="#">08</a></li> -->
+              <li class="experience"><a href="leafblower.shtml">01</a></li>
+              <li class="experience"><a href="leafblowerballroom.shtml">02</a></li>
+              <li class="experience"><a href="maskgallery.shtml">03</a></li>
+              <li class="experience"><a href="ontologyofobjects.shtml">04</a></li>
+              <li class="experience"><a href="skybaptism.shtml">05</a></li>
+              <li class="experience"><a href="roseroom.shtml">06</a></li>
+              <li class="experience"><a href="maryvoid.shtml">07</a></li>
           </ul>	
         </div>  
-        </section>
+      </section> -->
 
-        </div>  
-
+    </div>  
+  </section>
       <!--/div-->
       
       
@@ -114,9 +141,11 @@
       </i-frame>
     </div>
 
-      <div class="w3-rest"> 
+      <!-- <div class="w3-col w3-container m10 l9"> -->
+        <div id="div1" style="width:75%;height:400px;background-color:red;position:relative;z-index:2;margin:auto;margin-top:10%;">ABOUT</div>
+        <br> 
       </div>
-    </div>    
+    <!-- </div> -->    
 <!--/2-->    
     </main>
   </body>
