@@ -13,20 +13,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script>
     $(document).ready(function(){
-        $("#about-button").click(function(){  
-          $("#about-text").fadeToggle();
-            //   var mybutton = $(this);
-            //   if ($(this).is(':visible')) {
-            //        mybutton.text('close');                
-            //   } else {
-            //        mybutton.text('open');                
-            //   }              
-
-        });
-        $("#group-button").click(function(){
-            $("#group-text").fadeToggle();
-        }); 
-
+      $(".container").hide();
+      $(".menu").click(function(){
+          $(".container").hide();
+          $("#"+$(this).data("id")).fadeToggle();
+      });
     });     
     </script>
   </head>
@@ -47,16 +38,16 @@
 
               <!-- NAV -->  
               <div class="w3-col m1 w3-center">
-                  <li class="nav-list" id="about"><button id="about-button" class="menu">About</button></li>
+                <li class="nav-list" id="about"><button data-id="aboot" class="menu">About</button></li>
               </div>  
               <div class="w3-col m1 w3-center">
-                <li class="nav-list" id="members"><button id="group-button" class="menu">Group</button></li>
+                <li class="nav-list" id="members"><button data-id="group" class="menu">Group</button></li>
               </div>  
               <div class="w3-col m2 w3-center">  
-                <li class="nav-list" id="past"><button class="menu">Exhibitions and Awards</button></li>
+                <li class="nav-list" id="past"><button data-id="ea" class="menu">Exhibitions and Awards</button></li>
               </div>
               <div class="w3-col m1 w3-center">  
-                <li class="nav-list" id="contacts"><button class="menu">Contact</button></li>
+                <li class="nav-list" id="contacts"><button data-id="contact" class="menu">Contact</button></li>
               </div>
               <!-- --- -->
 
@@ -69,6 +60,8 @@
               </div> 
               <!-- --- --> 
             </ul>
+
+            <div data-id="none" class="cancel"></div>
 
           </div>
         </div>
@@ -154,7 +147,7 @@
       <!-- <div class="w3-col w3-container m10 l9"> -->
         <!-- <div id="container"> -->
 
-          <div id="about-text" class="container"><p>The awe-striking power of virtual reality is evident to most anyone who tries it: a visceral feeling of being immersed in a fantasy, a full body epiphany one must experience first hand to believe.</p><br><br>
+          <div id="aboot" class="container"><p>The awe-striking power of virtual reality is evident to most anyone who tries it: a visceral feeling of being immersed in a fantasy, a full body epiphany one must experience first hand to believe.</p><br><br>
 
           <p>For the members of PIMG, these technologies represent nascent possibilities igniting our imagination. We see them as precipitating a paradigm shift toward a new era of multi-sensory communication, with uniquely empathic, beatific, and therapeutic potential­.</p> <br><br>
 
@@ -164,10 +157,7 @@
 
         <!-- s -->
 
-
-        <!-- <div id="groupContainer"> -->
-
-          <div id="group-text" class="container">
+          <div id="group" class="container">
           <p>Row 1</p><br><br>
 
           <p>Row 2</p> <br><br>
@@ -176,8 +166,28 @@
 
           <p>Row 4</p><br></div>
 
-        <!-- </div> -->        
-      
+          
+          <div id="ea" class="container">
+          <p>Row A</p><br><br>
+
+          <p>Row B</p> <br><br>
+
+          <p>Row C</p><br><br>
+
+          <p>Row D</p><br></div>
+
+
+          <div id="contact" class="container">
+          <p>c o n t a c t</p><br><br>
+
+          <p>e m a i l</p> <br><br>
+
+          <p>d e t a i l s</p><br><br>
+
+          <p>s o c i a l</p><br></div>       
+          
+          <div id="cancel" class="container"></div>  
+
     <!-- </div> -->    
 <!--/2-->    
     </main>

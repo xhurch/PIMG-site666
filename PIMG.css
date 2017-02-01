@@ -313,6 +313,9 @@
        margin-right:-100px;
      }
 		
+    .div {
+ clear:both;
+}
 
 /*VR CSS*/
 
