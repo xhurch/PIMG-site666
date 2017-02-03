@@ -158,29 +158,64 @@
         <!-- s -->
 
           <div id="group" class="container">
-          <p>Row 1</p><br><br>
-
-          <p>Row 2</p> <br><br>
-
-          <p>Row 3</p><br><br>
-
-          <p>Row 4</p><br></div>
+          <table style="margin:auto; margin-top:80px">
+        
+                <tr align="center">
+                <td id="table-group"><a href="http://xhurch.net">Matt<br>Henderson</a></td>
+                <td id="table-group"><a href="https://www.patreon.com/user/community?u=2514667">Seanna<br>Musgrave</a></td>
+                <td id="table-group"><a href="http://damonpidhajecky.com/">Damon<br>Pidhajecky</a></td>
+                <td id="table-group"><a href="https://liooil.space">Stephanie<br>Mendoza</a></td>
+                </tr>
+                <tr align="center">
+                
+                <td id="table-group"><a href="https://vimeo.com/michellemckay">Michelle<br>Mckay</a></td>
+                <td id="table-group"><a href="http://thedreaminghour.com/tumblr/">Scott<br>Mayroal</a></td>
+                <td id="table-group"><a href="https://neunzert.myportfolio.com/">Sonya<br>Neunzert</a></td>
+                <td id="table-group"><a href="http://signalculture.org/dave-mosier.html#.">Dave<br>Mosier</a></td>
+                </tr>
+                <tr align="center">
+                <td id="table-group"><a href="http://officialmichaelgreen.com/OfficialMichaelGreen">Michael<br>Green</a></td>
+                <td id="table-group"><a href="http://www.marknerys.com/">Mark<br>Nerys</a></td>
+                <td id="table-group"><a href="https://www.linkedin.com/in/joel-delight">Joel<br>Delight</a></td>
+                <td id="table-group"><a href="https://www.linkedin.com/in/wolfgangwebdev">Wolfgang<br>Werneke</a></td>
+                </tr>
+            </table></div>
 
           
           <div id="ea" class="container">
-          <p>Row A</p><br><br>
-
-          <p>Row B</p> <br><br>
-
-          <p>Row C</p><br><br>
-
-          <p>Row D</p><br></div>
+          <table style="margin:auto">
+        
+                <tr align="center">
+                <td><img src="images/precipice_fund_p.png" width="75"><br><a href="https://liooil.space">Precipice Fund<br>2016 Grantees</a></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/IndieCade_logo.png" width="100"><br><a href="https://liooil.space">IndieCade<br>2016 Finalists</a></td>
+                </tr>
+                <tr align="center"><td style="font-variant:small-caps; padding:.1em">Past Events</td></tr>
+                <tr><td>
+                <ul style="list-style:none">
+            <li><a href="https://liooil.space">Chat Room @ Town Hall Seattle (SEA) - 12/14/16</a></li>
+            <li><a href="https://liooil.space">VR Spa @ Portland Community Media (PDX) - 12/05/16</a></li>
+            <li><a href="https://liooil.space">Portland Retro Gaming Expo (PDX) - 10/23/16</a></li>
+            <li><a href="https://liooil.space">IndieCade 2016 (LA) - 10/13/16</a></li>
+            <li><a href="https://liooil.space">Out of Sight (SEATTLE) - 08/04/16</a></li>
+            <li><a href="https://liooil.space">Felt Book @ Werkartz (LA) - 05/23/16</a></li>
+            <li><a href="https://www.patreon.com/user/community?u=2514667">Habitats / What is Media? (PDX) - 04/14/16</a></li>
+            <li><a href="#">NTVTY VI @ Xhurch (PDX) - 12/21/15</a></li>
+           </ul></td>
+        </tr>
+                <tr align="center"><td style="font-variant:small-caps; padding:.1em">Supported By</td></tr>
+                <tr>
+                <td><img src="images/vive_logo.png" width="120"></td>
+                <td><img src="images/andy_warhol_logo.png" width="130"></td>
+                <td><img src="images/calligram_logo.png" width="150"></td>
+                <td><img src="http://pica.org/wp-content/uploads/2013/02/PICA_design.png" width="95"></td>
+                </tr>
+            </table>
 
 
           <div id="contact" class="container">
           <p>c o n t a c t</p><br><br>
 
-          <p>e m a i l</p> <br><br>
+          <p>info@pdximmersive.media</p> <br><br>
 
           <p>d e t a i l s</p><br><br>
 

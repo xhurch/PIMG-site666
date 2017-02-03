@@ -4,17 +4,32 @@
         src: url(fonts/oratorStd.otf);
       }
 
-      *{
+	  *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         }
       
       body{
-        font-family: andale Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+        font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 		    background:#000000;
 		    text-shadow: 1px 1px #000;
-        }  
+        }
+	  button {
+		background-color: Transparent;
+   		border: none;
+    	color: black;
+    	padding: 0;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 30px;
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+	button:hover {
+    	background-color: Transparent;
+    	color: yellow;
+	}
 
       li{
        	color: white;
@@ -32,6 +47,19 @@
         color: white;
         margin: 1em;
         padding: 1.5em;
+        text-align: center;
+        text-shadow: 1px 1px #000;
+        text-decoration: none;
+        align-content:center;
+      }
+	  #table-group {
+        display: inline-block;
+        color: white;
+        margin: 2em;
+        padding-top: 1.5em;
+		padding-bottom: 1.5;
+		padding-left: 4;
+		padding-right: 4;
         text-align: center;
         text-shadow: 1px 1px #000;
         text-decoration: none;
@@ -289,7 +317,7 @@
       height:75%;
       position:relative;
       z-index:2; 
-      overflow:inherit; 
+      overflow:scroll; 
       text-align:justify; 
       color:white; 
       font-family:Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; 
