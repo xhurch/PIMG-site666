@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="preload" src="neko.html">
+    <link rel="prefetch" src="neko.html">
+    
     <script>
     $(document).ready(function(){
       $(".container").hide();
@@ -124,7 +127,7 @@
             <!-- <a-image src="#PIMG-logo" width="12" position="0 3 -6.72" rotation="" scale="1 1.5 1"></a-image> -->
             
             <!-- Link to Neko -->
-            <a-entity id="link-box" position="0 100 -420" scale="10 10 10" rotate="0 0 0"   geometry="box" material="opacity: 0.5" href="neko.html">
+            <a-entity position="0 100 -420" scale="10 10 10" rotate="0 0 0" geometry="box" material="opacity: 0.5" href="neko.html">
               <a-animation attribute="rotation"
                        dur="10000"
                        fill="forwards"
