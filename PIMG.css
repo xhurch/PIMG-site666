@@ -30,7 +30,6 @@
     	background-color: Transparent;
     	color: yellow;
 	}
-
       li{
        	color: white;
        	border: 2px solid white;
@@ -39,8 +38,21 @@
        	text-align: left;
 		    text-shadow: 1px 1px #000;
 		    box-shadow: 1px 1px #000;
-		
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
        }
+	   li.nbsp{
+		border: none;
+       	color: white;
+       	margin: 1em;
+       	padding: .5em;
+       	text-align: left;
+		text-shadow: none;
+		box-shadow: none;
+		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+       }
+	   ul{
+		   list-style: none;
+	   }
 
       td {
         display: inline-block; /*necessary*/
@@ -56,10 +68,6 @@
         display: inline-block;
         color: white;
         margin: 2em;
-        padding-top: 1.5em;
-		padding-bottom: 1.5;
-		padding-left: 4;
-		padding-right: 4;
         text-align: center;
         text-shadow: 1px 1px #000;
         text-decoration: none;
@@ -83,10 +91,67 @@
 		    font-family: andale Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
        }
        a:hover{
+		position:relative;
        	font-size: 1.3em;
        	color: yellow;
-		
-       }
+		}
+		a.dave:hover:after {
+    	content: url(images/Dave_Animation.gif); /* no need for qoutes */
+    	z-index: 37;
+		position: absolute;
+		display: block;
+    	left: -43px; /* change this value to one that suits you */
+    	top: 37px; /* change this value to one that suits you */
+}
+		a.matt:hover:after {
+    	content: url(images/Matt_Animation.gif); /* no need for qoutes */
+    	z-index: 37;
+		position: absolute;
+		display: block;
+    	left: -48px; /* change this value to one that suits you */
+    	top: 37px; /* change this value to one that suits you */
+}
+		a.michael:hover:after {
+    	content: url(images/Michael_Animation.gif); /* no need for qoutes */
+    	z-index: 37;
+		position: absolute;
+		display: block;
+    	left: -39px; /* change this value to one that suits you */
+    	top: 37px; /* change this value to one that suits you */
+}
+		a.michelle:hover:after {
+    	content: url(images/Michelle_Animation.gif); /* no need for qoutes */
+    	z-index: 37;
+		position: absolute;
+		display: block;
+    	left: -37px; /* change this value to one that suits you */
+    	top: 37px; /* change this value to one that suits you */
+}
+		a.scott:hover:after {
+    	content: url(images/Scott_Animation.gif); /* no need for qoutes */
+    	z-index: 37;
+		position: absolute;
+		display: block;
+    	left: -48px; /* change this value to one that suits you */
+    	top: 37px; /* change this value to one that suits you */
+}
+		a.sonya:hover:after {
+    	content: url(images/Sonya-32no_dither.gif); /* no need for qoutes */
+    	z-index: 37;
+		position: absolute;
+		display: block;
+    	left: -48px; /* change this value to one that suits you */
+    	top: 37px; /* change this value to one that suits you */
+}
+		a.stephanie:hover:after {
+    	content: url(images/Steph_Animation.gif); /* no need for qoutes */
+    	z-index: 37;
+		position: absolute;
+		display: block;
+    	left: -48px; /* change this value to one that suits you */
+    	top: 37px; /* change this value to one that suits you */
+}
+       
 	   a.main{
        	font-size: 1.2em;
 		    font-weight: 600;
@@ -246,13 +311,13 @@
 /*SIDE BAR --- might be obsolete! */
 		.section__container{
 			position:absolute;
-			max-width: 70%;
-			max-height: 90%;
-			z-index: 2;
-			top:20%;
+			max-width: 150px;
+			max-height: 100%;
+			z-index: 4;
+			top:23%;
 			left: 1.5%;
-			overflow-x: hidden;
-			overflow-y: auto;
+			overflow-x: scroll; 
+			overflow-y: scroll;
 		}
 		.nav__container{
 			
@@ -272,8 +337,7 @@
 		}
 		.nav-list{
 			display: inline;
-			font-family: Orator;
-      src: url(fonts/oratorStd.otf);
+			font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 			text-decoration: none;
       text-align: left;
 			border: none;
@@ -283,14 +347,15 @@
 			padding-top: 30px;
 			padding-left: -7px;
 		}
-
-    .nav-nums{
-      color: white;
-      border: 2px solid white;
-      margin: 2em;
-      text-shadow: 1px 1px #000;
-      box-shadow: 1px 1px #000;
-    }
+	
+	#nums{
+		color: white;
+       	border: 2px solid white;
+       	margin: .8em;
+       	padding: .5em;
+		text-shadow: 1px 1px #000;
+      	box-shadow: 1px 1px #000;
+	}
 		
 /*MENU ITEMS*/
   /*ALL CONTAINER*/
@@ -305,6 +370,7 @@
       color: black;
       font-size: .85em;
       margin: auto;
+	  
     }
     .container{
       display: none;

@@ -74,16 +74,30 @@
 
 <!--2-->
   <section class="section__container">
-    <div class="w3-row">
-        <div class="w3-col w3-container m2">
-            <a href="leafblower.shtml" class="nav-nums">01</a>
-            <a href="leafblowerballroom.shtml" class="nav-nums">02</a>
-            <a href="maskgallery.shtml" class="nav-nums">03</a>
-            <a href="ontologyofobjects.shtml" class="nav-nums">04</a>
-            <a href="skybaptism.shtml" class="nav-nums">05</a>
-            <a href="roseroom.shtml" class="nav-nums">06</a>
-            <a href="leafblower.shtml" class="nav-nums">07</a>
+  
+        <div>
+       	<ul>
+            <li><a href="leafblower.shtml">01</a></li>
+            <li><a href="leafblowerballroom.shtml">02</a></li>
+            <li><a href="maskgallery.shtml">03</a></li>
+            <li><a href="ontologyofobjects.shtml">04</a></li>
+            <li> <a href="skybaptism.shtml">05</a></li>
+            <li><a href="roseroom.shtml">06</a></li>
+            <li><a href="leafblower.shtml">07</a></li>
+            <li class="nbsp">&nbsp;</li>
+            <li class="nbsp">&nbsp;</li>
+        </ul>
         </div>
+    <!-- Steph's w3school solution <div class="w3-row">
+        <div class="w3-col w3-container m2">
+            <a href="leafblower.shtml" class="nav-nums" id="nums">01</a>
+            <a href="leafblowerballroom.shtml" class="nav-nums" id="nums">02</a>
+            <a href="maskgallery.shtml" class="nav-nums" id="nums">03</a>
+            <a href="ontologyofobjects.shtml" class="nav-nums" id="nums">04</a>
+            <a href="skybaptism.shtml" class="nav-nums" id="nums">05</a>
+            <a href="roseroom.shtml" class="nav-nums" id="nums">06</a>
+            <a href="leafblower.shtml" class="nav-nums" id="nums">07</a>
+        </div> -->
 
 <!--   <section class="section__container">
       	<div class="work__container">
@@ -100,7 +114,7 @@
         </div>  
       </section> -->
 
-    </div>  
+     
   </section>
       <!--/div-->
       
@@ -156,7 +170,7 @@
 
           <p>Offsetting this promise however are questions of access, accountability, Privacy, and human transmutability: who will have means to these technologies? How will individuals be altered or compromised by their use? Will continued reliance on high-priced software and hardware result in asymetrical communication in the metaverse?</p><br><br>
 
-          <p>It’s this sort of criticality which PIMG wishes to bring to public discourse through immersive realm-builing, ardent experimentation, and  visceral installations that bridge the virtual and the physical.</p><br></div>
+          <p>It's this sort of criticality which PIMG wishes to bring to public discourse through immersive realm-builing, ardent experimentation, and  visceral installations that bridge the virtual and the physical.</p><br></div>
 
         <!-- s -->
 
@@ -164,47 +178,47 @@
           <table style="margin:auto; margin-top:80px">
         
                 <tr align="center">
-                <td id="table-group"><a href="http://xhurch.net">Matt<br>Henderson</a></td>
-                <td id="table-group"><a href="https://www.patreon.com/user/community?u=2514667">Seanna<br>Musgrave</a></td>
-                <td id="table-group"><a href="http://damonpidhajecky.com/">Damon<br>Pidhajecky</a></td>
-                <td id="table-group"><a href="https://liooil.space">Stephanie<br>Mendoza</a></td>
+                <td id="table-group"><a class="matt" href="http://xhurch.net">Matt<br>Henderson</a></td>
+                <td id="table-group"><a class="seanna" href="https://www.patreon.com/user/community?u=2514667">Seanna<br>Musgrave</a></td>
+                <td id="table-group"><a class="damon" href="http://damonpidhajecky.com/">Damon<br>Pidhajecky</a></td>
+                <td id="table-group"><a class="stephanie" href="https://liooil.space">Stephanie<br>Mendoza</a></td>
                 </tr>
                 <tr align="center">
                 
-                <td id="table-group"><a href="https://vimeo.com/michellemckay">Michelle<br>Mckay</a></td>
-                <td id="table-group"><a href="http://thedreaminghour.com/tumblr/">Scott<br>Mayroal</a></td>
-                <td id="table-group"><a href="https://neunzert.myportfolio.com/">Sonya<br>Neunzert</a></td>
-                <td id="table-group"><a href="http://signalculture.org/dave-mosier.html#.">Dave<br>Mosier</a></td>
+                <td id="table-group"><a class="michelle" href="https://vimeo.com/michellemckay">Michelle<br>Mckay</a></td>
+                <td id="table-group"><a class="scott" href="http://thedreaminghour.com/tumblr/">Scott<br>Mayroal</a></td>
+                <td id="table-group"><a class="sonya" href="https://neunzert.myportfolio.com/">Sonya<br>Neunzert</a></td>
+                <td id="table-group"><a class="dave" href="http://signalculture.org/dave-mosier.html#.">Dave<br>Mosier</a></td>
                 </tr>
                 <tr align="center">
-                <td id="table-group"><a href="http://officialmichaelgreen.com/OfficialMichaelGreen">Michael<br>Green</a></td>
-                <td id="table-group"><a href="http://www.marknerys.com/">Mark<br>Nerys</a></td>
-                <td id="table-group"><a href="https://www.linkedin.com/in/joel-delight">Joel<br>Delight</a></td>
-                <td id="table-group"><a href="https://www.linkedin.com/in/wolfgangwebdev">Wolfgang<br>Werneke</a></td>
+                <td id="table-group"><a class="michael" href="http://officialmichaelgreen.com/OfficialMichaelGreen">Michael<br>Green</a></td>
+                <td id="table-group"><a class="mark" href="http://www.marknerys.com/">Mark<br>Nerys</a></td>
+                <td id="table-group"><a class="joel" href="https://www.linkedin.com/in/joel-delight">Joel<br>Delight</a></td>
+                <td id="table-group"><a class="wolfgang" href="https://www.linkedin.com/in/wolfgangwebdev">Wolfgang<br>Werneke</a></td>
                 </tr>
             </table></div>
 
           
           <div id="ea" class="container">
           <table style="margin:auto">
-        
-                <tr align="center">
+                <tr align="center"><td style="font-variant:small-caps; padding:.05em; font-size:2em">Past Events</td></tr>
+                <tr><td>
+                <ul style="list-style:none">
+            <li><a href="https://www.youtube.com/watch?v=LHkBzdLKmNE">Chat Room @ Town Hall Seattle (SEA) - 12/14/16</a></li>
+            <li><a href="https://community.pcmtv.org/education/workshops/specialty/vr-spa-portland-immersive-media-group/18191">VR Spa @ Portland Community Media (PDX) - 12/05/16</a></li>
+            <li><a href="http://www.retrogamingexpo.com/exhibitors.php">Portland Retro Gaming Expo (PDX) - 10/23/16</a></li>
+            <li><a href="http://www.indiecade.com/games/selected/vr-spa">IndieCade 2016 (LA) - 10/13/16</a></li>
+            <li><a href="http://www.outofsight.space/">Out of Sight (SEATTLE) - 08/04/16</a></li>
+            <li><a href="http://www.institutefornewfeeling.com/feltbook">Felt Book @ Werkartz (LA) - 05/23/16</a></li>
+            <li><a href="http://journalism.uoregon.edu/whatis/media/habitats/">Habitats / What is Media? (PDX) - 04/14/16</a></li>
+            <li><a href="http://xhurch.net/photomatrix.html">NTVTY VI @ Xhurch (PDX) - 12/21/15</a></li>
+           </ul></td>
+        </tr>
+        <tr align="center"><td style="font-variant:small-caps; padding:.1em; font-size:1.5em">Awards</td></tr>
+        <tr align="center">
                 <td><img src="images/precipice_fund_p.png" width="75"><br><a href="https://liooil.space">Precipice Fund<br>2016 Grantees</a></td>
                 <td><img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/IndieCade_logo.png" width="100"><br><a href="https://liooil.space">IndieCade<br>2016 Finalists</a></td>
                 </tr>
-                <tr align="center"><td style="font-variant:small-caps; padding:.1em">Past Events</td></tr>
-                <tr><td>
-                <ul style="list-style:none">
-            <li><a href="https://liooil.space">Chat Room @ Town Hall Seattle (SEA) - 12/14/16</a></li>
-            <li><a href="https://liooil.space">VR Spa @ Portland Community Media (PDX) - 12/05/16</a></li>
-            <li><a href="https://liooil.space">Portland Retro Gaming Expo (PDX) - 10/23/16</a></li>
-            <li><a href="https://liooil.space">IndieCade 2016 (LA) - 10/13/16</a></li>
-            <li><a href="https://liooil.space">Out of Sight (SEATTLE) - 08/04/16</a></li>
-            <li><a href="https://liooil.space">Felt Book @ Werkartz (LA) - 05/23/16</a></li>
-            <li><a href="https://www.patreon.com/user/community?u=2514667">Habitats / What is Media? (PDX) - 04/14/16</a></li>
-            <li><a href="#">NTVTY VI @ Xhurch (PDX) - 12/21/15</a></li>
-           </ul></td>
-        </tr>
                 <tr align="center"><td style="font-variant:small-caps; padding:.1em">Supported By</td></tr>
                 <tr>
                 <td><img src="images/vive_logo.png" width="120"></td>
