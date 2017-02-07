@@ -425,4 +425,18 @@
       left: 75px;
       bottom: 20px;
   }
-			
+
+  /*DETECT SCREEN ORIENTATION*/			
+  @media screen and (orientation:portrait)
+  {
+     body
+     {
+        display:none;
+     }
+     div#rot
+     {
+        display:block; 
+        background:red;
+
+     }
+  }
