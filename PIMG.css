@@ -15,6 +15,10 @@
 		    background:#000000;
 		    text-shadow: 1px 1px #000;
         }
+
+        p{
+          opacity:1;
+        }
 	  button {
 		background-color: Transparent;
    		border: none;
@@ -351,11 +355,11 @@
 	
 	#nums{
 		color: white;
-       	border: 2px solid white;
-       	margin: .8em;
-       	padding: .5em;
+   	border: 2px solid white;
+   	margin: .8em;
+   	padding: .5em;
 		text-shadow: 1px 1px #000;
-      	box-shadow: 1px 1px #000;
+  	box-shadow: 1px 1px #000;
 	}
 		
 /*MENU ITEMS*/
@@ -449,6 +453,6 @@
         width: 100vw;
         height: 100vh;        
         display:block;
-        background-color: red;
+        background-color: #ccff33;
      }
   }

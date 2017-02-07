@@ -27,7 +27,7 @@
   <body> 
 
     <div id="orient">
-      <h1>TURN YOUR SCREEN ROAR</h1>
+      <center><img id="turn-img" src="flip-yo-screen.png"></center>
     </div>
 
     <main id="main" class="main">
