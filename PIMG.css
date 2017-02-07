@@ -343,7 +343,8 @@
 			border: none;
 			box-shadow: none;
 			color: black;
-			font-size: .85em;
+			font-size: 80%;
+      white-space: nowrap;
 			padding-top: 30px;
 			padding-left: -7px;
 		}
@@ -422,21 +423,32 @@
       line-height: 16px;
       height: 10%;
       position: absolute;
-      left: 75px;
+      left: 105em;
       bottom: 20px;
+  }
+
+  #orient{
+      display:none;
   }
 
   /*DETECT SCREEN ORIENTATION*/			
   @media screen and (orientation:portrait)
   {
-     body
+     main
      {
         display:none;
      }
-     div#rot
+     .a-enter-vr
      {
-        display:block; 
-        background:red;
-
+        display:none;
+     }
+     #orient
+     {  
+        position: absolute;
+        z-index: 5;
+        width: 100vw;
+        height: 100vh;        
+        display:block;
+        background-color: red;
      }
   }
