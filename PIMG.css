@@ -16,11 +16,12 @@
 		    text-shadow: 1px 1px #000;
         }
 
-        p{
+      p{
           opacity:1;
         }
-	  button {
-		background-color: Transparent;
+
+	   button {
+		  background-color: Transparent;
    		border: none;
     	color: black;
     	padding: 0;
@@ -28,12 +29,14 @@
     	text-decoration: none;
     	display: inline-block;
     	font-size: 30px;
-		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
-}
-	button:hover {
-    	background-color: Transparent;
-    	color: yellow;
-	}
+		  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+       }
+
+	    button:hover {
+    	 background-color: Transparent;
+    	 color: yellow;
+	     }
+
       li{
        	color: white;
        	border: 2px solid white;
@@ -42,18 +45,17 @@
        	text-align: left;
 		    text-shadow: 1px 1px #000;
 		    box-shadow: 1px 1px #000;
-		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+		    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
        }
+
 	   li.nbsp{
-		border: none;
-       	color: white;
+		    border: none;
        	margin: 1em;
        	padding: .5em;
-       	text-align: left;
-		text-shadow: none;
-		box-shadow: none;
-		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+		    text-shadow: none;
+		    box-shadow: none;
        }
+
 	   ul{
 		   list-style: none;
 	   }
@@ -267,7 +269,7 @@
     	left: -130px;
     	width: 120%;
     	height: 120%;
-		z-index: -1;
+		  z-index: -1;
 		}
 		
 		.fullscreen-bg__video_bubbles {
@@ -276,7 +278,7 @@
     	left: -130px;
     	width: 117%;
     	height: 107%;
-		z-index: -1;
+		  z-index: -1;
 		}
 
 		.fullscreen-bg__video_masks {
@@ -348,7 +350,9 @@
 			box-shadow: none;
 			color: black;
 			font-size: 80%;
-      white-space: nowrap;
+
+      /*white-space: nowrap;*/
+
 			padding-top: 30px;
 			padding-left: -7px;
 		}
@@ -431,6 +435,8 @@
       bottom: 20px;
   }
 
+/*HIDDEN MOBILE FUNCTIONS*/
+
   #orient{
       display:none;
   }
@@ -455,4 +461,26 @@
         display:block;
         background-color: #ccff33;
      }
+     #turn-img{
+        marin:auto;
+
+     }
+  }
+
+    @media all and (max-width: 768px)
+  {
+/*      li{
+        color: red;
+        border: 2px solid red;
+        margin: 1em;
+        padding: .5em;
+        text-align: left;
+        text-shadow: 1px 1px #000;
+        box-shadow: 1px 1px #000;
+        font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+       }
+
+      #number-nav{
+        display:inline-block;
+      } */
   }
