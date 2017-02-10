@@ -1,4 +1,4 @@
-<!-- about.html -->
+<!-- ontologyofobjects.html -->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -56,10 +56,10 @@
 
               <!-- ICONS -->
               <div class="w3-col m3 w3-center">  
-                <li class="nav-list" id="steam"><a href="http://store.steampowered.com/steamvr" ><img src="images/steam.png" id="social"></a></li>
-                <li class="nav-list" id="twitter"><a href="https://twitter.com/_pimg"><img src="images/twitter.png" id="social"></a></li>
-                <li class="nav-list" id="instagram"><a href="https://www.instagram.com/pdximmersivemediagroup/"><img src="images/instagram.png" id="social"></a></li>
-                <li class="nav-list" id="vimeo"><a href="https://vimeo.com/user47660576" ><img src="images/vimeo.png" id="social"></a></li>
+                <li class="nav-list" id="steam"><a href="http://store.steampowered.com/steamvr" target="_blank"><img src="images/steam.png" id="social"></a></li>
+                <li class="nav-list" id="twitter"><a href="https://twitter.com/_pimg" target="_blank"><img src="images/twitter.png" id="social"></a></li>
+                <li class="nav-list" id="instagram"><a href="https://www.instagram.com/pdximmersivemediagroup/" target="_blank"><img src="images/instagram.png" id="social"></a></li>
+                <li class="nav-list" id="vimeo"><a href="https://vimeo.com/user47660576" target="_blank"><img src="images/vimeo.png" id="social"></a></li>
               </div> 
               <!-- --- --> 
             </ul>
@@ -130,7 +130,7 @@
 	      	</head>
 	      	<body>
 	      	
-            <div class="fullscreen-bg">
+          <div class="fullscreen-bg">
     <video loop autoplay class="fullscreen-bg__video">
         <source src="vids/ontologyofobjects(low).webm" type="video/webm">
         <source src="vids/ontologyofobjects(low).mp4" type="video/mp4">
@@ -160,23 +160,23 @@
           <table style="margin:auto; margin-top:80px">
         
                 <tr align="center">
-                <td id="table-group"><a class="matt" href="http://xhurch.net">Matt<br>Henderson</a></td>
-                <td id="table-group"><a class="seanna" href="https://www.patreon.com/user/community?u=2514667">Seanna<br>Musgrave</a></td>
-                <td id="table-group"><a class="damon" href="http://damonpidhajecky.com/">Damon<br>Pidhajecky</a></td>
-                <td id="table-group"><a class="stephanie" href="https://liooil.space">Stephanie<br>Mendoza</a></td>
+                <td id="table-group"><a class="matt" href="http://xhurch.net" target="_blank">Matt<br>Henderson</a></td>
+                <td id="table-group"><a class="seanna" href="https://www.patreon.com/user/community?u=2514667" target="_blank">Seanna<br>Musgrave</a></td>
+                <td id="table-group"><a class="damon" href="http://damonpidhajecky.com/" target="_blank">Damon<br>Pidhajecky</a></td>
+                <td id="table-group"><a class="stephanie" href="https://liooil.space" target="_blank">Stephanie<br>Mendoza</a></td>
                 </tr>
                 <tr align="center">
                 
-                <td id="table-group"><a class="michelle" href="https://vimeo.com/michellemckay">Michelle<br>Mckay</a></td>
-                <td id="table-group"><a class="scott" href="http://thedreaminghour.com/tumblr/">Scott<br>Mayroal</a></td>
-                <td id="table-group"><a class="sonya" href="https://neunzert.myportfolio.com/">Sonya<br>Neunzert</a></td>
-                <td id="table-group"><a class="dave" href="http://signalculture.org/dave-mosier.html#.">Dave<br>Mosier</a></td>
+                <td id="table-group"><a class="michelle" href="https://vimeo.com/michellemckay" target="_blank">Michelle<br>Mckay</a></td>
+                <td id="table-group"><a class="scott" href="http://thedreaminghour.com/tumblr/" target="_blank">Scott<br>Mayroal</a></td>
+                <td id="table-group"><a class="sonya" href="https://neunzert.myportfolio.com/" target="_blank">Sonya<br>Neunzert</a></td>
+                <td id="table-group"><a class="dave" href="http://signalculture.org/dave-mosier.html#." target="_blank">Dave<br>Mosier</a></td>
                 </tr>
                 <tr align="center">
-                <td id="table-group"><a class="michael" href="http://officialmichaelgreen.com/OfficialMichaelGreen">Michael<br>Green</a></td>
-                <td id="table-group"><a class="mark" href="http://www.marknerys.com/">Mark<br>Nerys</a></td>
-                <td id="table-group"><a class="joel" href="https://www.linkedin.com/in/joel-delight">Joel<br>Delight</a></td>
-                <td id="table-group"><a class="wolfgang" href="https://www.linkedin.com/in/wolfgangwebdev">Wolfgang<br>Werneke</a></td>
+                <td id="table-group"><a class="michael" href="http://officialmichaelgreen.com/OfficialMichaelGreen" target="_blank">Michael<br>Green</a></td>
+                <td id="table-group"><a class="mark" href="http://www.marknerys.com/" target="_blank">Mark<br>Nerys</a></td>
+                <td id="table-group"><a class="joel" href="https://www.linkedin.com/in/joel-delight" target="_blank">Joel<br>Delight</a></td>
+                <td id="table-group"><a class="wolfgang" href="https://www.linkedin.com/in/wolfgangwebdev" target="_blank">Wolfgang<br>Werneke</a></td>
                 </tr>
             </table></div>
 
@@ -186,20 +186,20 @@
                 <tr align="center"><td style="font-variant:small-caps; padding:.05em; font-size:2em">Past Events</td></tr>
                 <tr><td>
                 <ul style="list-style:none">
-            <li><a href="https://www.youtube.com/watch?v=LHkBzdLKmNE">Chat Room @ Town Hall Seattle (SEA) - 12/14/16</a></li>
-            <li><a href="https://community.pcmtv.org/education/workshops/specialty/vr-spa-portland-immersive-media-group/18191">VR Spa @ Portland Community Media (PDX) - 12/05/16</a></li>
-            <li><a href="http://www.retrogamingexpo.com/exhibitors.php">Portland Retro Gaming Expo (PDX) - 10/23/16</a></li>
-            <li><a href="http://www.indiecade.com/games/selected/vr-spa">IndieCade 2016 (LA) - 10/13/16</a></li>
-            <li><a href="http://www.outofsight.space/">Out of Sight (SEATTLE) - 08/04/16</a></li>
-            <li><a href="http://www.institutefornewfeeling.com/feltbook">Felt Book @ Werkartz (LA) - 05/23/16</a></li>
-            <li><a href="http://journalism.uoregon.edu/whatis/media/habitats/">Habitats / What is Media? (PDX) - 04/14/16</a></li>
-            <li><a href="http://xhurch.net/photomatrix.html">NTVTY VI @ Xhurch (PDX) - 12/21/15</a></li>
+            <li><a href="https://www.youtube.com/watch?v=LHkBzdLKmNE" target="_blank">Chat Room @ Town Hall Seattle (SEA) - 12/14/16</a></li>
+            <li><a href="https://community.pcmtv.org/education/workshops/specialty/vr-spa-portland-immersive-media-group/18191" target="_blank">VR Spa @ Portland Community Media (PDX) - 12/05/16</a></li>
+            <li><a href="http://www.retrogamingexpo.com/exhibitors.php" target="_blank">Portland Retro Gaming Expo (PDX) - 10/23/16</a></li>
+            <li><a href="http://www.indiecade.com/games/selected/vr-spa" target="_blank">IndieCade 2016 (LA) - 10/13/16</a></li>
+            <li><a href="http://www.outofsight.space/" target="_blank">Out of Sight (SEATTLE) - 08/04/16</a></li>
+            <li><a href="http://www.institutefornewfeeling.com/feltbook" target="_blank">Felt Book @ Werkartz (LA) - 05/23/16</a></li>
+            <li><a href="http://journalism.uoregon.edu/whatis/media/habitats/" target="_blank">Habitats / What is Media? (PDX) - 04/14/16</a></li>
+            <li><a href="http://xhurch.net/photomatrix.html" target="_blank">NTVTY VI @ Xhurch (PDX) - 12/21/15</a></li>
            </ul></td>
         </tr>
         <tr align="center"><td style="font-variant:small-caps; padding:.1em; font-size:1.5em">Awards</td></tr>
         <tr align="center">
-                <td><img src="images/precipice_fund_p.png" width="75"><br><a href="https://liooil.space">Precipice Fund<br>2016 Grantees</a></td>
-                <td><img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/IndieCade_logo.png" width="100"><br><a href="https://liooil.space">IndieCade<br>2016 Finalists</a></td>
+                <td><img src="images/precipice_fund_p.png" width="75"><br><a href="http://pica.org/precipice-fund/2015-grant-recipients/" target="_blank">Precipice Fund<br>2016 Grantees</a></td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/IndieCade_logo.png" width="100"><br><a href="http://www.indiecade.com/games/selected/vr-spa" target="_blank">IndieCade<br>2016 Finalists</a></td>
                 </tr>
                 <tr align="center"><td style="font-variant:small-caps; padding:.1em">Supported By</td></tr>
                 <tr>
@@ -227,3 +227,4 @@
     </main>
   </body>
 </html>
+
