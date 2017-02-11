@@ -10,7 +10,7 @@
         box-sizing: border-box;
         }
       
-      body{
+      	body{
         font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 		    background:#000000;
 		    text-shadow: 1px 1px #000;
@@ -19,7 +19,7 @@
         p{
           opacity:1;
         }
-	  button {
+	  	button {
 		background-color: Transparent;
    		border: none;
     	color: black;
@@ -30,11 +30,11 @@
     	font-size: 30px;
 		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 }
-	button:hover {
+	  	button:hover {
     	background-color: Transparent;
     	color: yellow;
 	}
-      li{
+      	li{
        	color: white;
        	border: 2px solid white;
        	margin: 1em;
@@ -44,7 +44,7 @@
 		    box-shadow: 1px 1px #000;
 		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
        }
-	   li.nbsp{
+	   	li.nbsp{
 		border: none;
        	color: white;
        	margin: 1em;
@@ -54,11 +54,11 @@
 		box-shadow: none;
 		font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
        }
-	   ul{
-		   list-style: none;
+	   	ul{
+		list-style: none;
 	   }
 
-      td {
+      	td {
         display: inline-block; /*necessary*/
         color: white;
         margin: 1em;
@@ -68,7 +68,7 @@
         text-decoration: none;
         align-content:center;
       }
-	  #table-group {
+	  	#table-group {
         display: inline-block;
         color: white;
         margin: 2em;
@@ -78,7 +78,7 @@
         align-content:center;
       }
 
-       p{
+       	p{
        	font-size: 1.2em;
        	letter-spacing: 3px;
        	color: white;
@@ -86,7 +86,7 @@
        	text-shadow: 1px 1px #000;
 		    font-family: andale Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 	     }
-	     a{
+	    a{
        	font-size: 1.3em;
        	letter-spacing: 3px;
        	color: white;
@@ -94,7 +94,7 @@
        	text-shadow: 1px 1px #000;
 		    font-family: andale Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
        }
-       a:hover{
+       	a:hover{
 		position:relative;
        	font-size: 1.3em;
        	color: yellow;
@@ -140,13 +140,15 @@
     	top: 37px; /* change this value to one that suits you */
 }
 		a.sonya:hover:after {
-    	content: url(images/Sonya-32no_dither.gif); /* no need for qoutes */
+    	content: url(images/SONYA2.0AT128NODITHER.gif); /* no need for qoutes */
     	z-index: 37;
 		position: absolute;
 		display: block;
     	left: -48px; /* change this value to one that suits you */
     	top: 37px; /* change this value to one that suits you */
+		width: 60%;
 }
+
 		a.stephanie:hover:after {
     	content: url(images/Steph_Animation.gif); /* no need for qoutes */
     	z-index: 37;
@@ -155,8 +157,17 @@
     	left: -48px; /* change this value to one that suits you */
     	top: 37px; /* change this value to one that suits you */
 }
+
+		a.joel:hover:after {
+    	content: url(images/Joel_128NODITHER.gif); /* no need for qoutes */
+    	z-index: 37;
+		position: absolute;
+		display: block;
+    	left: -48px; /* change this value to one that suits you */
+    	top: 37px; /* change this value to one that suits you */
+}
        
-	   a.main{
+	   	a.main{
        	font-size: 1.2em;
 		    font-weight: 600;
        	letter-spacing: 2.5px;
@@ -165,12 +176,12 @@
        	text-shadow: 1px 1px #000;
 		    display: inline;
        }
-	   a.main:hover{
+	   	a.main:hover{
        	font-size: 1.2em;
        	color: yellow;
 		
        }
-	   a.menu{
+	   	a.menu{
        	font-size: 1em;
        	color: black;
        	text-decoration: none;
@@ -185,14 +196,14 @@
        }
 
 /*TOP BAR*/	   
-      .main{
+      	.main{
         display: flex;
         height: 100%;
 	    z-index: 2;
 		font-family: andale Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
         }
       
-      .sidebar{
+      	.sidebar{
 		    float: left;
         position: absolute;
         max-width: 100%;
@@ -203,7 +214,7 @@
         z-index: 2;
 
         }
-      .sidebar__wrap{
+      	.sidebar__wrap{
         width: 100%;
 		    height: 75px;
         position: relative;
@@ -214,10 +225,10 @@
         opacity: 0.5;*/
         left: 1%;
         }
-       .sidebar__wrap__inner{
+       	.sidebar__wrap__inner{
 		    padding-top: 7px;
        } 
-       .top-menu{
+       	.top-menu{
        	font-size: 1em;
        	color: white;
        	font-weight: 100;
@@ -229,16 +240,16 @@
 		    position:fixed;
 	
        }
-	     .PIMG-title{
+	    .PIMG-title{
        	font-size: 120%;
 		    left: 1%;
 		    margin: auto;
         
        }
-       .menu__list{
+       	.menu__list{
        	margin: .5%;
        } 
-       .page-title{
+       	.page-title{
        	font-size: 1em;
        	color: white;
        	font-weight: 100;
@@ -246,13 +257,13 @@
        	text-align: center;
        	z-index: 1.5;
        }
-       .subnav{
+       	.subnav{
        	margin: .1em;
        	list-style-type: none;
        }
 
 /*VIDEO CSS*/	   
-	   .fullscreen-bg {
+	   	.fullscreen-bg {
     	position: fixed;
     	top: 0;
     	right: 0;
