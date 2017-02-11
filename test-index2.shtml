@@ -8,7 +8,7 @@
 
 
    <title>PIMG</title>
-   <meta name="description" content="The awe-striking power of virtual reality is evident to most anyone who tries it: a visceral feeling of being immersed in a fantasy, a full body epiphany one must experience first hand to believe.">
+   <meta name="description" content="A tech-saavy artists collective bringing criticality to public discouse through critical writing, immersive realm-builing, ardent experimentation, and visceral installations that bridge the virtual and the physical.">
    <meta name="keywords" content="virtual reality, portland immersive media group, pimg, vr spa, portland vr, portland virtual reality, xhurch">
    
    
@@ -102,7 +102,7 @@
               <!-- ICONS -->
               <div class="w3-col m3 w3-center">  
                 <li class="nav-list" id="steam"><a href="http://store.steampowered.com/steamvr" target="_blank"><img src="images/steam.png" id="social"></a></li>
-                <li class="nav-list" id="twitter"><a href="https://twitter.com/_pimg" target="_blank"><img src="images/twitter.png" id="social"></a></li>
+                <li class="nav-list" id="twitter"><a href="https://twitter.com/pdximmersive" target="_blank"><img src="images/twitter.png" id="social"></a></li>
                 <li class="nav-list" id="instagram"><a href="https://www.instagram.com/pdximmersivemediagroup/" target="_blank"><img src="images/instagram.png" id="social"></a></li>
                 <li class="nav-list" id="vimeo"><a href="https://vimeo.com/user47660576" target="_blank"><img src="images/vimeo.png" id="social"></a></li>
               </div> 
@@ -209,19 +209,21 @@
       <!-- <div class="w3-col w3-container m10 l9"> -->
         <!-- <div id="container"> -->
 
-          <div id="aboot" class="container"><p>The awe-striking power of virtual reality is evident to most anyone who tries it: a visceral feeling of being immersed in a fantasy, a full body epiphany one must experience first hand to believe.</p><br><br>
+          <div id="aboot" class="container">
+          <div align="center"><h1 style="font-variant:small-caps; padding:.01em; font-size:3em">. . .</h2></div><br>
+          <p>The awe-striking power of virtual reality is evident to most anyone who tries it: a visceral feeling of being immersed in a fantasy, a full body epiphany one must experience first hand to believe.</p><br><br>
 
-          <p>For the members of PIMG, these technologies represent nascent possibilities igniting our imagination. We see them as precipitating a paradigm shift toward a new era of multi-sensory communication, with uniquely empathic, beatific, and therapeutic potential­.</p> <br><br>
+          <p>For the members of PIMG, these technologies represent nascent possibilities igniting our imagination. We see them as precipitating a paradigm shift toward a new era of multi-sensory communication, with uniquely empathic, beatific, and therapeutic potential.</p> <br><br>
 
           <p>Offsetting this promise however are questions of access, accountability, Privacy, and human transmutability: who will have means to these technologies? How will individuals be altered or compromised by their use? Will continued reliance on high-priced software and hardware result in asymetrical communication in the metaverse?</p><br><br>
 
-          <p>It's this sort of criticality which PIMG wishes to bring to public discourse through immersive realm-builing, ardent experimentation, and  visceral installations that bridge the virtual and the physical.</p><br></div>
+          <p>It's this sort of criticality which PIMG wishes to bring to public discourse through immersive realm-builing, ardent experimentation, critical writing, and  visceral installations that bridge the virtual and the physical.</p><br></div>
 
         <!-- s -->
 
           <div id="group" class="container">
-          <table style="margin:auto; margin-top:80px">
-        
+          <div align="center"><h1 style="font-variant:small-caps; padding:.01em; font-size:3em">M e m b e r s</h2></div><br>
+          <table style="margin:auto">
                 <tr align="center">
                 <td id="table-group"><a class="matt" href="http://xhurch.net" target="_blank">Matt<br>Henderson</a></td>
                 <td id="table-group"><a class="seanna" href="https://www.patreon.com/user/community?u=2514667" target="_blank">Seanna<br>Musgrave</a></td>
@@ -245,8 +247,8 @@
 
           
           <div id="ea" class="container">
+          <div align="center"><h1 style="font-variant:small-caps; padding:.01em; font-size:3em">Past Events</h2></div><br>
           <table style="margin:auto">
-                <tr align="center"><td style="font-variant:small-caps; padding:.05em; font-size:3em">Past Events</td></tr>
                 <tr><td>
                 <ul style="list-style:none">
             <li><a href="https://www.youtube.com/watch?v=LHkBzdLKmNE" target="_blank">Chat Room @ Town Hall Seattle (SEA) - 12/14/16</a></li>
@@ -272,18 +274,22 @@
                 <td><img src="http://pica.org/wp-content/uploads/2013/02/PICA_design.png" width="95"></td>
                 </tr>
             </table>
-
-
+</div>
           <div id="contact" class="container">
-          <p>c o n t a c t</p><br><br>
-
-          <p>info@pdximmersive.media</p> <br><br>
-
-          <p>d e t a i l s</p><br><br>
-
-          <p>s o c i a l</p><br></div>       
-          
-          <div id="cancel" class="container"></div>  
+          <div align="center"><h1 style="font-variant:small-caps; padding:.01em; font-size:3em">C o n t a c t</h2></div><br>
+          <table style="margin:auto">
+                <tr align="center"><td>
+                <ul style="list-style:none">
+            <li><a href="mailto:info@pdximmersive.media" target="_blank">info@pdximmersive.media</a></li>
+          </ul></td></tr>
+			<tr align="center">
+            <td style="padding:.1em; font-size:1.5em"><a href="https://twitter.com/pdximmersive" target="_blank">Twitter<br><span style="font-variant:small-caps">(@pdximmersive)</span></a></td>
+            <td style="padding:.1em; font-size:1.5em"><a href="https://www.instagram.com/pdximmersivemediagroup/" target="_blank">Instragram<br><span style="font-variant:small-caps">(@pdximmersive)</span></a></td>
+            <td style="padding:.1em; font-size:1.5em"><a href="https://www.facebook.com/pdximmersive" target="_blank">Facebook<br><span style="font-variant:small-caps">(@pdximmersive)</span></a></td>
+            </tr>
+            </table>
+            </div>
+           
 
     <!-- </div> -->    
 <!--/2-->    
