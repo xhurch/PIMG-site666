@@ -483,16 +483,19 @@
       li{
         border: none;
         color: white;
-        background-color: rgba(255,0,255,0.5);
+        background-color:none;
+        /*background-color: rgba(255,0,255,0.5);*/
         margin-left: -1em;
         padding-left: 1.3em;   
-      }
+        box-shadow:none;
+    }
       
       #AltNav{
         display:block;
         position: absolute;
         z-index: 2;
         }        
+
       #mobile-title{  
         font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
         color: white;
@@ -506,7 +509,12 @@
 
     #mobile-vids li{
         float:left;
-        } 
+        border: 2px solid white;
+        }
+    #mobile-vids li a{
+        margin:-7px;
+    }    
+
     li a{
         display: block;
         }
@@ -515,7 +523,6 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-
       }
 
       #mobile-nav{
