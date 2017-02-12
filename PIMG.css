@@ -20,21 +20,21 @@
           opacity:1;
         }
 
-	   button {
-		  background-color: Transparent;
-   		border: none;
+    button {
+	background-color: Transparent;
+   	border: none;
     	color: black;
     	padding: 0;
     	text-align: center;
     	text-decoration: none;
     	display: inline-block;
     	font-size: 30px;
-		  font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
        }
 
-	    button:hover {
-    	 background-color: Transparent;
-    	 color: yellow;
+    button:hover {
+    	background-color: Transparent;
+    	color: yellow;
 	     }
 
       li{
@@ -43,9 +43,9 @@
        	margin: 1em;
        	padding: .5em;
        	text-align: left;
-		    text-shadow: 1px 1px #000;
-		    box-shadow: 1px 1px #000;
-		    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+        text-shadow: 1px 1px #000;
+	box-shadow: 1px 1px #000;
+        font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
        }
 
 	   li.nbsp{
@@ -70,7 +70,7 @@
         text-decoration: none;
         align-content:center;
       }
-	  #table-group {
+    #table-group {
         display: inline-block;
         color: white;
         margin: 2em;
@@ -254,7 +254,7 @@
        }
 
 /*VIDEO CSS*/	   
-	   .fullscreen-bg {
+      .fullscreen-bg {
     	position: fixed;
     	top: 0;
     	right: 0;
@@ -263,7 +263,7 @@
     	overflow: hidden;
 		}
 
-		.fullscreen-bg__video {
+    .fullscreen-bg__video {
     	position: fixed;
     	top: -42px;
     	left: -130px;
@@ -272,7 +272,7 @@
 		  z-index: -1;
 		}
 		
-		.fullscreen-bg__video_bubbles {
+    .fullscreen-bg__video_bubbles {
     	position: fixed;
     	top: -42px;
     	left: -130px;
@@ -281,7 +281,7 @@
 		  z-index: -1;
 		}
 
-		.fullscreen-bg__video_masks {
+    .fullscreen-bg__video_masks {
     	position: fixed;
     	top: -50px;
     	left: -340px;
@@ -289,7 +289,7 @@
     	height: 145%;
 		z-index: -1;
 		}
-		.fullscreen-bg__video_baptism {
+    .fullscreen-bg__video_baptism {
     	position: fixed;
     	top: -87px;
     	left: -400px;
@@ -297,7 +297,7 @@
     	height: 150%;
 		z-index: -1;
 		}
-		.fullscreen-bg__video_roseroom {
+    .fullscreen-bg__video_roseroom {
     	position: fixed;
     	top: -87px;
     	left: -375px;
@@ -305,13 +305,13 @@
     	height: 150%;
 		z-index: -1;
 		}
-		.fullscreen-bg__video_maryvoid {
+    .fullscreen-bg__video_maryvoid {
     	position: fixed;
     	top: -42px;
     	left: -130px;
     	width: 120%;
     	height: 120%;
-		  z-index: -1;
+        z-index: -1;
 		}
 
 /*SIDE BAR --- might be obsolete! */
@@ -331,7 +331,7 @@
 		.top-nav{
 			display: inline;
 			font-family: Orator;
-      src: url(fonts/oratorStd.otf);
+    src: url(fonts/oratorStd.otf);
 			text-decoration: none;
 			border: none;
 			color: black;
@@ -345,7 +345,7 @@
 			display: inline;
 			font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 			text-decoration: none;
-      text-align: left;
+                        text-align: left;
 			border: none;
 			box-shadow: none;
 			color: black;
@@ -358,11 +358,11 @@
 		}
 	
 	#nums{
-		color: white;
+	color: white;
    	border: 2px solid white;
    	margin: .8em;
    	padding: .5em;
-		text-shadow: 1px 1px #000;
+	text-shadow: 1px 1px #000;
   	box-shadow: 1px 1px #000;
 	}
 		
@@ -400,7 +400,7 @@
     }
 
   /*GROUP*/		
-		#group-members {
+    #group-members {
       height: 400px; /*your fixed height*/
     
     }
@@ -417,8 +417,8 @@
      }
 		
     .div {
- clear:both;
-}
+        clear:both;
+    }
 
 /*VR CSS*/
 
@@ -439,6 +439,9 @@
 
   #orient{
       display:none;
+  }
+  #AltNav{
+    display:none;
   }
 
   /*DETECT SCREEN ORIENTATION*/			
@@ -469,18 +472,64 @@
 
     @media all and (max-width: 768px)
   {
-/*      li{
-        color: red;
-        border: 2px solid red;
-        margin: 1em;
-        padding: .5em;
-        text-align: left;
-        text-shadow: 1px 1px #000;
-        box-shadow: 1px 1px #000;
+      aside{
+        display:none;   
+      }
+      li{
+        border: none;
+        color: white;
+        background-color: rgba(255,0,255,0.5);
+        margin-left: -1em;
+        padding-left: 1.3em;   
+      }
+      
+      #AltNav{
+        display:block;
+        position: absolute;
+        z-index: 2;
+        }        
+      #mobile-title{  
         font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
-       }
+        color: white;
+        margin-left: .2em;
+        }
 
+    #mobile-vids{
+        margin-top: 60%;
+        bottom: 8px;
+    }
+
+    #mobile-vids li{
+        float:left;
+        } 
+    li a{
+        display: block;
+        }
+
+     ul{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+      }
+
+      #mobile-nav{
+        position: absolute;
+        z-index: 2;
+        margin-top: 5%;
+        }
+     
+    /*Remove prior settings*/
+       #PIMGTitle{
+         display:none;
+      }
+       #socialIcons{
+        display:none;
+       }
+       #navMain{
+        display: none;
+       }
       #number-nav{
-        display:inline-block;
-      } */
+        display:none;
+      } 
   }

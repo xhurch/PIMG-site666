@@ -39,35 +39,40 @@
 
             <ul>
               <!-- HEADER -->
-              <div class="w3-col m4 w3-center">
+              <div id="PIMGTitle">
+              <div class="w3-col s12 m4 w3-center">
                 <li class="nav-list" id="home"><a class="main" href="index.shtml" >Portland Immersive Media Group</a></li>
               </div>
-              <!-- --- -->
+              </div>
 
               <!-- NAV -->  
-              <div class="w3-col m1 w3-center">
+            <div id="navMain"> 
+              <div clasis="w3-col s12 m1 w3-center">
                 <li class="nav-list" id="about"><button data-id="aboot" class="menu">About</button></li>
               </div>  
-              <div class="w3-col m1 w3-center">
+              <div class="w3-col s12 m1 w3-center">
                 <li class="nav-list" id="members"><button data-id="group" class="menu">Group</button></li>
               </div>  
-              <div class="w3-col m2 w3-center">  
+              <div class="w3-col s12 m2 w3-center">  
                 <li class="nav-list" id="past"><button data-id="ea" class="menu">Exhibitions &amp; Awards</button></li>
               </div>
-              <div class="w3-col m1 w3-center">  
+              <div class="w3-col s12 m1 w3-center">  
                 <li class="nav-list" id="contacts"><button data-id="contact" class="menu">Contact</button></li>
               </div>
-              <!-- --- -->
-
-              <!-- ICONS -->
+            </div>
+             
+            <!-- ICONS -->
               <div class="w3-col m3 w3-center">  
-                <li class="nav-list" id="steam"><a href="http://store.steampowered.com/steamvr" target="_blank"><img src="images/steam.png" id="social"></a></li>
+                <div id="socialIcons"> 
+                 <ul>
+                    <li class="nav-list" id="steam"><a href="http://store.steampowered.com/steamvr" target="_blank"><img src="images/steam.png" id="social"></a></li>
                 <li class="nav-list" id="twitter"><a href="https://twitter.com/_pimg" target="_blank"><img src="images/twitter.png" id="social"></a></li>
                 <li class="nav-list" id="instagram"><a href="https://www.instagram.com/pdximmersivemediagroup/" target="_blank"><img src="images/instagram.png" id="social"></a></li>
                 <li class="nav-list" id="vimeo"><a href="https://vimeo.com/user47660576" target="_blank"><img src="images/vimeo.png" id="social"></a></li>
-              </div> 
-              <!-- --- --> 
-            </ul>
+                 </ul>
+               
+                 </div> 
+            </div> 
 
             <div data-id="none" class="cancel"></div>
 
@@ -81,7 +86,7 @@
   <section class="section__container">
   
         <div id="number-nav">
-         	<ul>
+            <ul>
               <li><a href="leafblower.shtml">01</a></li>
               <li><a href="leafblowerballroom.shtml">02</a></li>
               <li><a href="maskgallery.shtml">03</a></li>
@@ -93,37 +98,50 @@
               <li class="nbsp">&nbsp;</li>
           </ul>
         </div>
-    <!-- Steph's w3school solution <div class="w3-row">
-        <div class="w3-col w3-container m2">
-            <a href="leafblower.shtml" class="nav-nums" id="nums">01</a>
-            <a href="leafblowerballroom.shtml" class="nav-nums" id="nums">02</a>
-            <a href="maskgallery.shtml" class="nav-nums" id="nums">03</a>
-            <a href="ontologyofobjects.shtml" class="nav-nums" id="nums">04</a>
-            <a href="skybaptism.shtml" class="nav-nums" id="nums">05</a>
-            <a href="roseroom.shtml" class="nav-nums" id="nums">06</a>
-            <a href="leafblower.shtml" class="nav-nums" id="nums">07</a>
-        </div> -->
-
-<!--   <section class="section__container">
-      	<div class="work__container">
-        
-          <ul class="subnav">
-              <li class="experience"><a href="leafblower.shtml">01</a></li>
-              <li class="experience"><a href="leafblowerballroom.shtml">02</a></li>
-              <li class="experience"><a href="maskgallery.shtml">03</a></li>
-              <li class="experience"><a href="ontologyofobjects.shtml">04</a></li>
-              <li class="experience"><a href="skybaptism.shtml">05</a></li>
-              <li class="experience"><a href="roseroom.shtml">06</a></li>
-              <li class="experience"><a href="maryvoid.shtml">07</a></li>
-          </ul>	
-        </div>  
-      </section> -->
-
-     
   </section>
       <!--/div-->
+
       
-      
+<!--3: MobileNav-->
+    <nav id="AltNav">
+        <div id="w3-row">
+            <div id="w3-col s12">
+                <div id="mobile-title">
+                <a href="http://pdximmersive.media">Portland Immersive Media Group</a>
+            </div>
+        </div>
+        <div id="w3-row">
+            <div id="w3-col s12">
+                <div id="mobile-nav">
+                    <ul>
+                        <li><button data-id="aboot" class="menu">About</button></li>
+                        <li><button>Group</button></li>
+                        <li><button>Exhibitions<br>&amp; Awards</button></li>
+                        <li><button>Contact</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+         <div id="w3-row">
+            <div id="w3-col s12">
+                <div id="mobile-vids">
+                        <ul>                                      
+                             <li><a href="leafblower.shtml">01</a></li>
+                             <li><a href="leafblowerballroom.shtml">02</a></li>
+                             <li><a href="maskgallery.shtml">03</a></li>
+                             <li><a href="ontologyofobjects.shtml">04</a></li>
+                             <li> <a href="skybaptism.shtml">05</a></li>
+                             <li><a href="roseroom.shtml">06</a></li>
+                             <li><a href="maryvoid.shtml">07</a></li>
+                        </ul>
+                    </div>    
+                </div>
+            </div>
+         </div>     
+    </nav>     
+<!--/3-->
+
+
     <!--EXAMPLE IFRAME-->
       <div id="vr-container">
       <i-frame id="vr-iframe" class="vr__iframe" allowfullscreen="yes" scrolling="no" allowvr="yes" src="https://aframe.io/aframe/examples/boilerplate/360-video/" width="100%" height="100%">
@@ -243,7 +261,6 @@
 
           <p>s o c i a l</p><br></div>       
           
-          <div id="cancel" class="container"></div>  
 
     <!-- </div> -->    
 <!--/2-->    
