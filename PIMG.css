@@ -86,42 +86,42 @@
        	color: white;
        	text-decoration: none;
        	text-shadow: 1px 1px #000;
-		    font-family: andale Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-family: andale Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
 	     }
-	     a{
+     a{
        	font-size: 1.3em;
        	letter-spacing: 3px;
        	color: white;
        	text-decoration: none;
        	text-shadow: 1px 1px #000;
-		    font-family: andale Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+        font-family: andale Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
        }
-       a:hover{
-		position:relative;
+    a:hover{
+	position:relative;
        	font-size: 1.3em;
        	color: yellow;
 		}
-		a.dave:hover:after {
+    a.dave:hover:after {
     	content: url(images/Dave_Animation.gif); /* no need for qoutes */
     	z-index: 37;
-		position: absolute;
-		display: block;
+	position: absolute;
+	display: block;
     	left: -43px; /* change this value to one that suits you */
     	top: 37px; /* change this value to one that suits you */
-}
-		a.matt:hover:after {
+        }
+    a.matt:hover:after {
     	content: url(images/Matt_Animation.gif); /* no need for qoutes */
     	z-index: 37;
-		position: absolute;
-		display: block;
+	position: absolute;
+	display: block;
     	left: -48px; /* change this value to one that suits you */
     	top: 37px; /* change this value to one that suits you */
 }
-		a.michael:hover:after {
+    a.michael:hover:after {
     	content: url(images/Michael_Animation.gif); /* no need for qoutes */
     	z-index: 37;
-		position: absolute;
-		display: block;
+	position: absolute;
+	display: block;
     	left: -39px; /* change this value to one that suits you */
     	top: 37px; /* change this value to one that suits you */
 }
@@ -398,6 +398,11 @@
       font-family:Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', monospace; 
       font-size:0.85em;
     }
+    #clients-edit-wrapper{
+      float:right;
+      margin:-60px -50px;
+      position: fixed;
+    }
 
   /*GROUP*/		
     #group-members {
@@ -423,6 +428,7 @@
 /*VR CSS*/
 
   /*ENTER VR BUTTON*/    
+
   .a-enter-vr {
       font-family: sans-serif,monospace;
       font-size: 13px;
@@ -434,7 +440,6 @@
       left: 105em;
       bottom: 20px;
   }
-
 /*HIDDEN MOBILE FUNCTIONS*/
 
   #orient{
@@ -519,6 +524,13 @@
         margin-top: 5%;
         }
      
+  .a-enter-vr {
+      width: 100%;
+      height: 10%;
+      position: absolute;
+      left: 45em;
+      bottom: 20px;
+  }
     /*Remove prior settings*/
        #PIMGTitle{
          display:none;

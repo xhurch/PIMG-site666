@@ -1,30 +1,31 @@
 <!-- about.html -->
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>PIMG</title>
-		<script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
-    <script src="js/aframe-animation-component.js"></script>
-    <script src="js/aframe-hyperlink.js"></script>
-    <script src="js/sw-load.js" data-service-worker="../sw.js" data-service-worker-scope="../"></script>
-		<link rel="stylesheet" type="text/css" href="PIMG.css">
-    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link rel="preload" src="neko.html">
-    <link rel="prefetch" src="neko.html">
-    
-    <script>
-    $(document).ready(function(){
-      $(".container").hide();
-      $(".menu").click(function(){
-          $(".container").hide();
-          $("#"+$(this).data("id")).fadeToggle();
-      });
-    });     
-    </script>
-  </head>
-  <body> 
+    <head>
+	<title>PIMG</title>
+	<script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
+        <script src="js/aframe-animation-component.js"></script>
+        <script src="js/aframe-hyperlink.js"></script>
+        <script src="js/sw-load.js" data-service-worker="../sw.js" data-service-worker-scope="../"></script>
+	<link rel="stylesheet" type="text/css" href="PIMG.css">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link rel="preload" src="neko.html">
+        <link rel="prefetch" src="neko.html">
+         <script>
+         $(document).ready(function(){
+             $(".container").hide();
+             $(".menu").click(function(){
+                $(".container").hide();
+                $("#"+$(this).data("id")).fadeToggle();
+             });
+             $('.close-div').click(function(){
+                $(this).parent().parent().hide();
+             });
+         });     
+        </script>
+    </head>
+    <body> 
 
     <div id="orient">
       <center><img id="turn-img" src="flip-yo-screen.png"></center>
@@ -115,9 +116,9 @@
                 <div id="mobile-nav">
                     <ul>
                         <li><button data-id="aboot" class="menu">About</button></li>
-                        <li><button>Group</button></li>
-                        <li><button>Exhibitions<br>&amp; Awards</button></li>
-                        <li><button>Contact</button></li>
+                        <li><button data-id="group" class="menu">Group</button></li>
+                        <li><button data-id="ea" class="menu">Exhibitions<br>&amp; Awards</button></li>
+                        <li><button data-id="contact" class="menu">Contact</button></li>
                     </ul>
                 </div>
             </div>
@@ -187,17 +188,25 @@
       <!-- <div class="w3-col w3-container m10 l9"> -->
         <!-- <div id="container"> -->
 
-          <div id="aboot" class="container"><p>The awe-striking power of virtual reality is evident to most anyone who tries it: a visceral feeling of being immersed in a fantasy, a full body epiphany one must experience first hand to believe.</p><br><br>
+          <div id="aboot" class="container">
+                <div id="clients-edit-wrapper">
+                    <a href="#" class="close-div">x</a>
+                 </div>
+          <p>The awe-striking power of virtual reality is evident to most anyone who tries it: a visceral feeling of being immersed in a fantasy, a full body epiphany one must experience first hand to believe.</p><br><br>
 
           <p>For the members of PIMG, these technologies represent nascent possibilities igniting our imagination. We see them as precipitating a paradigm shift toward a new era of multi-sensory communication, with uniquely empathic, beatific, and therapeutic potential­.</p> <br><br>
 
           <p>Offsetting this promise however are questions of access, accountability, Privacy, and human transmutability: who will have means to these technologies? How will individuals be altered or compromised by their use? Will continued reliance on high-priced software and hardware result in asymetrical communication in the metaverse?</p><br><br>
 
-          <p>It's this sort of criticality which PIMG wishes to bring to public discourse through immersive realm-builing, ardent experimentation, and  visceral installations that bridge the virtual and the physical.</p><br></div>
+          <p>It's this sort of criticality which PIMG wishes to bring to public discourse through immersive realm-builing, ardent experimentation, and  visceral installations that bridge the virtual and the physical.</p><br>
+          </div>
 
         <!-- s -->
 
           <div id="group" class="container">
+                <div id="clients-edit-wrapper">
+                    <a href="#" class="close-div">x</a>
+                 </div>
           <table style="margin:auto; margin-top:80px">
         
                 <tr align="center">
@@ -223,6 +232,9 @@
 
           
           <div id="ea" class="container">
+                <div id="clients-edit-wrapper">
+                    <a href="#" class="close-div">x</a>
+                 </div>
           <table style="margin:auto">
                 <tr align="center"><td style="font-variant:small-caps; padding:.05em; font-size:3em">Past Events</td></tr>
                 <tr><td>
@@ -250,17 +262,22 @@
                 <td><img src="http://pica.org/wp-content/uploads/2013/02/PICA_design.png" width="95"></td>
                 </tr>
             </table>
+        </div>
 
 
-          <div id="contact" class="container">
-          <p>c o n t a c t</p><br><br>
+        <div id="contact" class="container">
+            <div id="clients-edit-wrapper" style="float:right;margin:-60px -50px;">
+                    <a href="#" class="close-div">x</a>
+            </div>
 
-          <p>info@pdximmersive.media</p> <br><br>
+            <p>c o n t a c t</p><br><br>
 
-          <p>d e t a i l s</p><br><br>
+            <p>info@pdximmersive.media</p> <br><br>
 
-          <p>s o c i a l</p><br></div>       
-          
+            <p>d e t a i l s</p><br><br>
+
+            <p>s o c i a l</p><br></div>       
+        </div>
 
     <!-- </div> -->    
 <!--/2-->    
