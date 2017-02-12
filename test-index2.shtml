@@ -48,7 +48,7 @@
 
               <!-- NAV -->  
             <div id="navMain"> 
-              <div clasis="w3-col s12 m1 w3-center">
+              <div class="w3-col s12 m1 w3-center">
                 <li class="nav-list" id="about"><button data-id="aboot" class="menu">About</button></li>
               </div>  
               <div class="w3-col s12 m1 w3-center">
@@ -117,7 +117,7 @@
                     <ul>
                         <li><button data-id="aboot" class="menu">About</button></li>
                         <li><button data-id="group" class="menu">Group</button></li>
-                        <li><button data-id="ea" class="menu">Exhibitions &amp; Awards</button></li>
+                        <li><button data-id="ea" class="menu">Awards &amp;<br> Exhibits</button></li>
                         <li><button data-id="contact" class="menu">Contact</button></li>
                     </ul>
                 </div>
