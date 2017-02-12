@@ -159,7 +159,7 @@
                     <ul>
                         <li><button data-id="aboot" class="menu">About</button></li>
                         <li><button data-id="group" class="menu">Group</button></li>
-                        <li><button data-id="ea" class="menu">Exhibitions &amp; Awards</button></li>
+                        <li><button data-id="ea" class="menu">Awards &amp;<br> Exhibits</button></li>
                         <li><button data-id="contact" class="menu">Contact</button></li>
                     </ul>
                 </div>

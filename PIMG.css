@@ -513,16 +513,20 @@
         }
 
     #mobile-vids{
-        margin-top: 60%;
+        margin-top: 65%;
         bottom: 8px;
     }
 
     #mobile-vids li{
         float:left;
         border: 2px solid white;
+        width: 25px;
+        height: 25px;
+        margin: 3px;
         }
     #mobile-vids li a{
-        margin:-7px;
+        font-size:.90em;
+        margin-left:-15px;
     }    
 
     li a{
