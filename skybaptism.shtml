@@ -2,15 +2,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>PIMG</title>
-		<script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
-    <script src="js/aframe-animation-component.js"></script>
-    <script src="js/aframe-hyperlink.js"></script>
-    <script src="js/sw-load.js" data-service-worker="../sw.js" data-service-worker-scope="../"></script>
-		<link rel="stylesheet" type="text/css" href="PIMG.css">
-    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<?php include_once('site-head.php'); ?>
     <link rel="preload" src="neko.html">
     <link rel="prefetch" src="neko.html">
     
@@ -32,37 +24,7 @@
         <div class="sidebar__wrap">
           <div class="sidebar__wrap__inner">
 
-            <ul>
-              <!-- HEADER -->
-              <div class="w3-col m4 w3-center">
-                <li class="nav-list" id="home"><a class="main" href="index.shtml" >Portland Immersive Media Group</a></li>
-              </div>
-              <!-- --- -->
-
-              <!-- NAV -->  
-              <div class="w3-col m1 w3-center">
-                <li class="nav-list" id="about"><button data-id="aboot" class="menu">About</button></li>
-              </div>  
-              <div class="w3-col m1 w3-center">
-                <li class="nav-list" id="members"><button data-id="group" class="menu">Group</button></li>
-              </div>  
-              <div class="w3-col m2 w3-center">  
-                <li class="nav-list" id="past"><button data-id="ea" class="menu">Exhibitions &amp; Awards</button></li>
-              </div>
-              <div class="w3-col m1 w3-center">  
-                <li class="nav-list" id="contacts"><button data-id="contact" class="menu">Contact</button></li>
-              </div>
-              <!-- --- -->
-
-              <!-- ICONS -->
-              <div class="w3-col m3 w3-center">  
-                <li class="nav-list" id="steam"><a href="http://store.steampowered.com/steamvr" target="_blank"><img src="images/steam.png" id="social"></a></li>
-                <li class="nav-list" id="twitter"><a href="https://twitter.com/_pimg" target="_blank"><img src="images/twitter.png" id="social"></a></li>
-                <li class="nav-list" id="instagram"><a href="https://www.instagram.com/pdximmersivemediagroup/" target="_blank"><img src="images/instagram.png" id="social"></a></li>
-                <li class="nav-list" id="vimeo"><a href="https://vimeo.com/user47660576" target="_blank"><img src="images/vimeo.png" id="social"></a></li>
-              </div> 
-              <!-- --- --> 
-            </ul>
+            <?php include_once('header.php'); ?>
 
             <div data-id="none" class="cancel"></div>
 

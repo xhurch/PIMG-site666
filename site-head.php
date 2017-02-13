@@ -1,14 +1,11 @@
  <title>PIMG</title>
     <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
    
-    
-    <title>PIMG</title>
     <meta name="description" content="The awe-striking power of virtual reality is evident to most anyone who tries it: a visceral feeling of being immersed in a fantasy, a full body epiphany one must experience first hand to believe.">
     <meta name="keywords" content="virtual reality, portland immersive media group, pimg">
     <?php 
         $title = 'Portland Immersive Media Group';
         $desc = 'The awe-striking power of virtual reality is evident to most anyone who tries it: a visceral feeling of being immersed in a fantasy, a full body epiphany one must experience first hand to believe.';
-
     ?>
 
     <meta name="abstract" content="<?=$desc ?>" />
@@ -41,9 +38,6 @@
     <meta name="twitter:domain" content="vrspa.club"></meta><meta name="twitter:title" content="<?= $title ?>"></meta>
     <meta name="twitter:description" content=" <?= $title ?>"></meta>
     <meta name="twitter:image" content="tn.jpg"></meta>
-   
-
-
 
 	<script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
     <script src="js/aframe-animation-component.js"></script>

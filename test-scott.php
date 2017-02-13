@@ -103,7 +103,7 @@
             <!-- <a-image src="#PIMG-logo" width="12" position="0 3 -6.72" rotation="" scale="1 1.5 1"></a-image> -->
             
             <!-- Link to Neko -->
-            <a-entity position="0 100 -420" scale="10 10 10" rotate="0 0 0" geometry="box" material="opacity: 0.5" href="neko.html">
+            <a-entity position="0 100 -420" scale="10 10 10" rotate="0 0 0" geometry="box" material="opacity: 0.5" href="neko.php">
               <a-animation attribute="rotation"
                        dur="10000"
                        fill="forwards"

@@ -1,13 +1,23 @@
 <!DOCUMENT html>
 <html>
 	<head>
-		<title>PIMG</title>
-		<script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
-		<script src="js/aframe-animation-component.js"></script>
-    	<script src="js/aframe-hyperlink.js"></script>
-    	<script src="js/sw-load.js" data-service-worker="../sw.js" data-service-worker-scope="../"></script>
+		<?php include_once('site-head.php'); ?>
 	</head>
 	<body>
+		<!--1-->
+    <div class="w3-row">
+      <aside class="sidebar">
+        <div class="sidebar__wrap">
+          <div class="sidebar__wrap__inner">
+
+            <?php include_once('header.php'); ?>
+            <div data-id="none" class="cancel"></div>
+
+          </div>
+        </div>
+      </aside>
+    </div>  
+<!--/1-->
 		<a-scene>
 			<a-asset>
 				<video id="vid" src="vids/maneki-neko-360.mp4" autoplay loop crossorigin></video>

@@ -1,4 +1,4 @@
-<!-- ontologyofobjects.html -->
+<!-- skybaptism.html -->
 <!DOCTYPE html>
 <html>
 	<head>
@@ -24,7 +24,7 @@
         <div class="sidebar__wrap">
           <div class="sidebar__wrap__inner">
 
-           <?php include_once('header.php'); ?>
+            <?php include_once('header.php'); ?>
 
             <div data-id="none" class="cancel"></div>
 
@@ -39,13 +39,13 @@
   
         <div>
        	<ul>
-            <li><a href="leafblower.shtml">01</a></li>
-            <li><a href="leafblowerballroom.shtml">02</a></li>
-            <li><a href="maskgallery.shtml">03</a></li>
-            <li><a href="ontologyofobjects.shtml">04</a></li>
-            <li> <a href="skybaptism.shtml">05</a></li>
-            <li><a href="roseroom.shtml">06</a></li>
-            <li><a href="maryvoid.shtml">07</a></li>
+            <li><a href="leafblower.php">01</a></li>
+            <li><a href="leafblowerballroom.php">02</a></li>
+            <li><a href="maskgallery.php">03</a></li>
+            <li><a href="ontologyofobjects.php">04</a></li>
+            <li> <a href="skybaptism.php">05</a></li>
+            <li><a href="roseroom.php">06</a></li>
+            <li><a href="maryvoid.php">07</a></li>
             <li class="nbsp">&nbsp;</li>
             <li class="nbsp">&nbsp;</li>
         </ul>
@@ -93,10 +93,10 @@
 	      	<body>
 	      	
           <div class="fullscreen-bg">
-    <video loop autoplay class="fullscreen-bg__video">
-        <source src="vids/ontologyofobjects(low).webm" type="video/webm">
-        <source src="vids/ontologyofobjects(low).mp4" type="video/mp4">
-        <source src="vids/ontologyofobjects(low).ogv" type="video/ogg">
+    <video loop autoplay class="fullscreen-bg__video_baptism">
+        <source src="vids/sky-baptism.webm" type="video/webm">
+        <source src="vids/sky-baptism.mp4" type="video/mp4">
+        <source src="vids/sky-baptism.ogv" type="video/ogg">
     </video>
 </div>
 	    	</body>
