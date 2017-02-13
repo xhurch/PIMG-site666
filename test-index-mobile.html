@@ -1,30 +1,36 @@
-<!-- ontologyofobjects.html -->
+<!-- about.html -->
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>PIMG</title>
-		<script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
-    <script src="js/aframe-animation-component.js"></script>
-    <script src="js/aframe-hyperlink.js"></script>
-    <script src="js/sw-load.js" data-service-worker="../sw.js" data-service-worker-scope="../"></script>
-		<link rel="stylesheet" type="text/css" href="PIMG.css">
-    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link rel="preload" src="neko.html">
-    <link rel="prefetch" src="neko.html">
-    
-    <script>
-    $(document).ready(function(){
-      $(".container").hide();
-      $(".menu").click(function(){
-          $(".container").hide();
-          $("#"+$(this).data("id")).fadeToggle();
-      });
-    });     
-    </script>
-  </head>
-  <body> 
+    <head>
+	<title>PIMG</title>
+	<script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
+        <script src="js/aframe-animation-component.js"></script>
+        <script src="js/aframe-hyperlink.js"></script>
+        <script src="js/sw-load.js" data-service-worker="../sw.js" data-service-worker-scope="../"></script>
+	<link rel="stylesheet" type="text/css" href="PIMG.css">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link rel="preload" src="neko.html">
+        <link rel="prefetch" src="neko.html">
+         <script>
+         $(document).ready(function(){
+             $(".container").hide();
+             $(".menu").click(function(){
+                $(".container").hide();
+                $("#"+$(this).data("id")).fadeToggle();
+             });
+             $('.close-div').click(function(){
+                $(this).parent().parent().hide();
+             });
+         });     
+        </script>
+    </head>
+    <body> 
+
+    <div id="orient">
+      <center><img id="turn-img" src="flip-yo-screen.png"></center>
+    </div>
+
     <main id="main" class="main">
 <!--1-->
     <div class="w3-row">
@@ -34,35 +40,40 @@
 
             <ul>
               <!-- HEADER -->
-              <div class="w3-col m4 w3-center">
+              <div id="PIMGTitle">
+              <div class="w3-col s12 m4 w3-center">
                 <li class="nav-list" id="home"><a class="main" href="index.shtml" >Portland Immersive Media Group</a></li>
               </div>
-              <!-- --- -->
+              </div>
 
               <!-- NAV -->  
-              <div class="w3-col m1 w3-center">
+            <div id="navMain"> 
+              <div clasis="w3-col s12 m1 w3-center">
                 <li class="nav-list" id="about"><button data-id="aboot" class="menu">About</button></li>
               </div>  
-              <div class="w3-col m1 w3-center">
+              <div class="w3-col s12 m1 w3-center">
                 <li class="nav-list" id="members"><button data-id="group" class="menu">Group</button></li>
               </div>  
-              <div class="w3-col m2 w3-center">  
+              <div class="w3-col s12 m2 w3-center">  
                 <li class="nav-list" id="past"><button data-id="ea" class="menu">Exhibitions &amp; Awards</button></li>
               </div>
-              <div class="w3-col m1 w3-center">  
+              <div class="w3-col s12 m1 w3-center">  
                 <li class="nav-list" id="contacts"><button data-id="contact" class="menu">Contact</button></li>
               </div>
-              <!-- --- -->
-
-              <!-- ICONS -->
+            </div>
+             
+            <!-- ICONS -->
               <div class="w3-col m3 w3-center">  
-                <li class="nav-list" id="steam"><a href="http://store.steampowered.com/steamvr" target="_blank"><img src="images/steam.png" id="social"></a></li>
+                <div id="socialIcons"> 
+                 <ul>
+                    <li class="nav-list" id="steam"><a href="http://store.steampowered.com/steamvr" target="_blank"><img src="images/steam.png" id="social"></a></li>
                 <li class="nav-list" id="twitter"><a href="https://twitter.com/_pimg" target="_blank"><img src="images/twitter.png" id="social"></a></li>
                 <li class="nav-list" id="instagram"><a href="https://www.instagram.com/pdximmersivemediagroup/" target="_blank"><img src="images/instagram.png" id="social"></a></li>
                 <li class="nav-list" id="vimeo"><a href="https://vimeo.com/user47660576" target="_blank"><img src="images/vimeo.png" id="social"></a></li>
-              </div> 
-              <!-- --- --> 
-            </ul>
+                 </ul>
+               
+                 </div> 
+            </div> 
 
             <div data-id="none" class="cancel"></div>
 
@@ -75,50 +86,63 @@
 <!--2-->
   <section class="section__container">
   
-        <div>
-       	<ul>
-            <li><a href="leafblower.shtml">01</a></li>
-            <li><a href="leafblowerballroom.shtml">02</a></li>
-            <li><a href="maskgallery.shtml">03</a></li>
-            <li><a href="ontologyofobjects.shtml">04</a></li>
-            <li> <a href="skybaptism.shtml">05</a></li>
-            <li><a href="roseroom.shtml">06</a></li>
-            <li><a href="maryvoid.shtml">07</a></li>
-            <li class="nbsp">&nbsp;</li>
-            <li class="nbsp">&nbsp;</li>
-        </ul>
+        <div id="number-nav">
+            <ul>
+              <li><a href="leafblower.shtml">01</a></li>
+              <li><a href="leafblowerballroom.shtml">02</a></li>
+              <li><a href="maskgallery.shtml">03</a></li>
+              <li><a href="ontologyofobjects.shtml">04</a></li>
+              <li> <a href="skybaptism.shtml">05</a></li>
+              <li><a href="roseroom.shtml">06</a></li>
+              <li><a href="maryvoid.shtml">07</a></li>
+              <li class="nbsp">&nbsp;</li>
+              <li class="nbsp">&nbsp;</li>
+          </ul>
         </div>
-    <!-- Steph's w3school solution <div class="w3-row">
-        <div class="w3-col w3-container m2">
-            <a href="leafblower.shtml" class="nav-nums" id="nums">01</a>
-            <a href="leafblowerballroom.shtml" class="nav-nums" id="nums">02</a>
-            <a href="maskgallery.shtml" class="nav-nums" id="nums">03</a>
-            <a href="ontologyofobjects.shtml" class="nav-nums" id="nums">04</a>
-            <a href="skybaptism.shtml" class="nav-nums" id="nums">05</a>
-            <a href="roseroom.shtml" class="nav-nums" id="nums">06</a>
-            <a href="leafblower.shtml" class="nav-nums" id="nums">07</a>
-        </div> -->
-
-<!--   <section class="section__container">
-      	<div class="work__container">
-        
-          <ul class="subnav">
-              <li class="experience"><a href="leafblower.shtml">01</a></li>
-              <li class="experience"><a href="leafblowerballroom.shtml">02</a></li>
-              <li class="experience"><a href="maskgallery.shtml">03</a></li>
-              <li class="experience"><a href="ontologyofobjects.shtml">04</a></li>
-              <li class="experience"><a href="skybaptism.shtml">05</a></li>
-              <li class="experience"><a href="roseroom.shtml">06</a></li>
-              <li class="experience"><a href="maryvoid.shtml">07</a></li>
-          </ul>	
-        </div>  
-      </section> -->
-
-     
   </section>
       <!--/div-->
+
       
-      
+<!--3: MobileNav-->
+    <nav id="AltNav">
+        <div id="w3-row">
+            <div id="w3-col s12">
+                <div id="mobile-title">
+                <a href="http://pdximmersive.media">Portland Immersive Media Group</a>
+            </div>
+        </div>
+        <div id="w3-row">
+            <div id="w3-col s12">
+                <div id="mobile-nav">
+                    <ul>
+                        <li><button data-id="aboot" class="menu">About</button></li>
+                        <li><button data-id="group" class="menu">Group</button></li>
+                        <li><button data-id="ea" class="menu">Exhibitions &amp; Awards</button></li>
+                        <li><button data-id="contact" class="menu">Contact</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+         <div id="w3-row">
+            <div id="w3-col s12">
+                <div id="mobile-vids">
+                        <ul>                                      
+                             <li><a href="leafblower.shtml">01</a></li>
+                             <li><a href="leafblowerballroom.shtml">02</a></li>
+                             <li><a href="maskgallery.shtml">03</a></li>
+                             <li><a href="ontologyofobjects.shtml">04</a></li>
+                             <li> <a href="skybaptism.shtml">05</a></li>
+                             <li><a href="roseroom.shtml">06</a></li>
+                             <li><a href="maryvoid.shtml">07</a></li>
+                        </ul>
+                    </div>    
+                </div>
+            </div>
+         </div>     
+    </nav>     
+<!--/3-->
+
+
     <!--EXAMPLE IFRAME-->
       <div id="vr-container">
       <i-frame id="vr-iframe" class="vr__iframe" allowfullscreen="yes" scrolling="no" allowvr="yes" src="https://aframe.io/aframe/examples/boilerplate/360-video/" width="100%" height="100%">
@@ -130,13 +154,31 @@
 	      	</head>
 	      	<body>
 	      	
-          <div class="fullscreen-bg">
-    <video loop autoplay class="fullscreen-bg__video">
-        <source src="vids/ontologyofobjects(low).webm" type="video/webm">
-        <source src="vids/ontologyofobjects(low).mp4" type="video/mp4">
-        <source src="vids/ontologyofobjects(low).ogv" type="video/ogg">
-    </video>
-</div>
+          <a-scene vr-mode-ui="enabled: true">
+            <a-assets>
+              <video id="vid" src="vids/templ5-360.mp4" autoplay loop crossorigin></video>
+              <img id="PIMG-title" src="images/PIMG.png">
+              <img id="PIMG-logo" src="images/pimg-logo-full.png">
+            </a-assets>
+            
+            <a-image src="#PIMG-title" width="10" position="0 3.7 -7.32" rotation="" scale="1 2 1"></a-image>
+            <!-- <a-image src="#PIMG-logo" width="12" position="0 3 -6.72" rotation="" scale="1 1.5 1"></a-image> -->
+            
+            <!-- Link to Neko -->
+            <a-entity position="0 100 -420" scale="10 10 10" rotate="0 0 0" geometry="box" material="opacity: 0.5" href="neko.html">
+              <a-animation attribute="rotation"
+                       dur="10000"
+                       fill="forwards"
+                       to="0 360 0"
+                       repeat="indefinite"></a-animation>
+              </a-entity>
+
+              <a-entity position="0 0.75 0" camera look-controls wasd-controls>
+                <a-cursor material="color: yellow; shader: flat"></a-cursor>
+              </a-entity>
+            
+            <a-videosphere src="#vid" rotation="0 -90 1"></a-videosphere>
+      </a-scene>
 	    	</body>
 	    </html>	
 	 
@@ -146,17 +188,25 @@
       <!-- <div class="w3-col w3-container m10 l9"> -->
         <!-- <div id="container"> -->
 
-          <div id="aboot" class="container"><p>The awe-striking power of virtual reality is evident to most anyone who tries it: a visceral feeling of being immersed in a fantasy, a full body epiphany one must experience first hand to believe.</p><br><br>
+          <div id="aboot" class="container">
+                <div id="clients-edit-wrapper">
+                    <a href="#" class="close-div">x</a>
+                 </div>
+          <p>The awe-striking power of virtual reality is evident to most anyone who tries it: a visceral feeling of being immersed in a fantasy, a full body epiphany one must experience first hand to believe.</p><br><br>
 
           <p>For the members of PIMG, these technologies represent nascent possibilities igniting our imagination. We see them as precipitating a paradigm shift toward a new era of multi-sensory communication, with uniquely empathic, beatific, and therapeutic potential­.</p> <br><br>
 
           <p>Offsetting this promise however are questions of access, accountability, Privacy, and human transmutability: who will have means to these technologies? How will individuals be altered or compromised by their use? Will continued reliance on high-priced software and hardware result in asymetrical communication in the metaverse?</p><br><br>
 
-          <p>It's this sort of criticality which PIMG wishes to bring to public discourse through immersive realm-builing, ardent experimentation, and  visceral installations that bridge the virtual and the physical.</p><br></div>
+          <p>It's this sort of criticality which PIMG wishes to bring to public discourse through immersive realm-builing, ardent experimentation, and  visceral installations that bridge the virtual and the physical.</p><br>
+          </div>
 
         <!-- s -->
 
           <div id="group" class="container">
+                <div id="clients-edit-wrapper">
+                    <a href="#" class="close-div">x</a>
+                 </div>
           <table style="margin:auto; margin-top:80px">
         
                 <tr align="center">
@@ -182,8 +232,11 @@
 
           
           <div id="ea" class="container">
+                <div id="clients-edit-wrapper">
+                    <a href="#" class="close-div">x</a>
+                 </div>
           <table style="margin:auto">
-                <tr align="center"><td style="font-variant:small-caps; padding:.05em; font-size:2em">Past Events</td></tr>
+                <tr align="center"><td style="font-variant:small-caps; padding:.05em; font-size:3em">Past Events</td></tr>
                 <tr><td>
                 <ul style="list-style:none">
             <li><a href="https://www.youtube.com/watch?v=LHkBzdLKmNE" target="_blank">Chat Room @ Town Hall Seattle (SEA) - 12/14/16</a></li>
@@ -196,12 +249,12 @@
             <li><a href="http://xhurch.net/photomatrix.html" target="_blank">NTVTY VI @ Xhurch (PDX) - 12/21/15</a></li>
            </ul></td>
         </tr>
-        <tr align="center"><td style="font-variant:small-caps; padding:.1em; font-size:1.5em">Awards</td></tr>
+        <tr align="center"><td style="font-variant:small-caps; padding:.1em; font-size:3em">Awards</td></tr>
         <tr align="center">
                 <td><img src="images/precipice_fund_p.png" width="75"><br><a href="http://pica.org/precipice-fund/2015-grant-recipients/" target="_blank">Precipice Fund<br>2016 Grantees</a></td>
                 <td><img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/IndieCade_logo.png" width="100"><br><a href="http://www.indiecade.com/games/selected/vr-spa" target="_blank">IndieCade<br>2016 Finalists</a></td>
                 </tr>
-                <tr align="center"><td style="font-variant:small-caps; padding:.1em">Supported By</td></tr>
+                <tr align="center"><td style="font-variant:small-caps; padding:1em">Supported By</td></tr>
                 <tr>
                 <td><img src="images/vive_logo.png" width="120"></td>
                 <td><img src="images/andy_warhol_logo.png" width="130"></td>
@@ -209,22 +262,25 @@
                 <td><img src="http://pica.org/wp-content/uploads/2013/02/PICA_design.png" width="95"></td>
                 </tr>
             </table>
+        </div>
 
 
-          <div id="contact" class="container">
-          <p>c o n t a c t</p><br><br>
+        <div id="contact" class="container">
+            <div id="clients-edit-wrapper" style="float:right;margin:-60px -50px;">
+                    <a href="#" class="close-div">x</a>
+            </div>
 
-          <p>info@pdximmersive.media</p> <br><br>
+            <p>c o n t a c t</p><br><br>
 
-          <p>d e t a i l s</p><br><br>
+            <p>info@pdximmersive.media</p> <br><br>
 
-          <p>s o c i a l</p><br></div>       
-          
-          <div id="cancel" class="container"></div>  
+            <p>d e t a i l s</p><br><br>
+
+            <p>s o c i a l</p><br></div>       
+        </div>
 
     <!-- </div> -->    
 <!--/2-->    
     </main>
   </body>
 </html>
-
