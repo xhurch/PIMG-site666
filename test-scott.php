@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<?php include_once('site-header.php'); ?>
+		<?php include_once('site-head.php'); ?>
 
 
     <link rel="preload" src="neko.html">
