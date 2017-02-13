@@ -35,7 +35,7 @@
 
    <meta property="og:title" content="Portland Immersive Media Group" />
    <meta property="og:url" content="vrspa.club" />
-   <meta property="og:description" content="Portland Immersive Media Group" />
+   <meta property="og:description" content="Portland Immersive Media Group" /></meta>
    <meta name="twitter:card" content="product"></meta>
    <meta name="twitter:site" content="@pdximmersive"></meta>
    <meta name="twitter:creator" content="@pdximmersive"></meta>
@@ -159,7 +159,7 @@
                     <ul>
                         <li><button data-id="aboot" class="menu">About</button></li>
                         <li><button data-id="group" class="menu">Group</button></li>
-                        <li><button data-id="ea" class="menu">Exhibitions &amp; Awards</button></li>
+                        <li><button data-id="ea" class="menu">Awards&amp;<br>Exibits</button></li>
                         <li><button data-id="contact" class="menu">Contact</button></li>
                     </ul>
                 </div>
