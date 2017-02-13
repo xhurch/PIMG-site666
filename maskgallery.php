@@ -3,8 +3,8 @@
 <html>
 	<head>
 		<?php include_once('site-head.php'); ?>
-    <link rel="preload" src="neko.html">
-    <link rel="prefetch" src="neko.html">
+    <link rel="preload" src="neko.php">
+    <link rel="prefetch" src="neko.php">
     
     <script>
     $(document).ready(function(){
@@ -35,49 +35,7 @@
 <!--/1-->
 
 <!--2-->
-  <section class="section__container">
-  
-        <div>
-       	<ul>
-            <li><a href="leafblower.shtml">01</a></li>
-            <li><a href="leafblowerballroom.shtml">02</a></li>
-            <li><a href="maskgallery.shtml">03</a></li>
-            <li><a href="ontologyofobjects.shtml">04</a></li>
-            <li> <a href="skybaptism.shtml">05</a></li>
-            <li><a href="roseroom.shtml">06</a></li>
-            <li><a href="maryvoid.shtml">07</a></li>
-            <li class="nbsp">&nbsp;</li>
-            <li class="nbsp">&nbsp;</li>
-        </ul>
-        </div>
-    <!-- Steph's w3school solution <div class="w3-row">
-        <div class="w3-col w3-container m2">
-            <a href="leafblower.shtml" class="nav-nums" id="nums">01</a>
-            <a href="leafblowerballroom.shtml" class="nav-nums" id="nums">02</a>
-            <a href="maskgallery.shtml" class="nav-nums" id="nums">03</a>
-            <a href="ontologyofobjects.shtml" class="nav-nums" id="nums">04</a>
-            <a href="skybaptism.shtml" class="nav-nums" id="nums">05</a>
-            <a href="roseroom.shtml" class="nav-nums" id="nums">06</a>
-            <a href="leafblower.shtml" class="nav-nums" id="nums">07</a>
-        </div> -->
-
-<!--   <section class="section__container">
-      	<div class="work__container">
-        
-          <ul class="subnav">
-              <li class="experience"><a href="leafblower.shtml">01</a></li>
-              <li class="experience"><a href="leafblowerballroom.shtml">02</a></li>
-              <li class="experience"><a href="maskgallery.shtml">03</a></li>
-              <li class="experience"><a href="ontologyofobjects.shtml">04</a></li>
-              <li class="experience"><a href="skybaptism.shtml">05</a></li>
-              <li class="experience"><a href="roseroom.shtml">06</a></li>
-              <li class="experience"><a href="maryvoid.shtml">07</a></li>
-          </ul>	
-        </div>  
-      </section> -->
-
-     
-  </section>
+<?php include_once('selections.php'); ?>
       <!--/div-->
       
       

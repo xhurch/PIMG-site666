@@ -18,6 +18,7 @@
       </aside>
     </div>  
 <!--/1-->
+<?php include_once('selections.php'); ?>
 		<a-scene>
 			<a-asset>
 				<video id="vid" src="vids/maneki-neko-360.mp4" autoplay loop crossorigin></video>
@@ -26,7 +27,7 @@
 
 
 
-			<a-entity id="link-box" position="0 -100 -420" scale="10 10 10" rotate="0 0 0" geometry="box" material="opacity: 0.45" href="index.shtml">
+			<a-entity id="link-box" position="0 -100 -420" scale="10 10 10" rotate="0 0 0" geometry="box" material="opacity: 0.45" href="ontologyofobjects.php">
 				<a-animation attribute="rotation"
 	               dur="10000"
 	               fill="forwards"
