@@ -47,18 +47,18 @@
 	box-shadow: 1px 1px #000;
         font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
        }
-	   li.nbsp{
-		border: none;
+    li.nbsp{
+	border: none;
        	margin: 1em;
        	padding: .5em;
-		    text-shadow: none;
-		    box-shadow: none;
+	text-shadow: none;
+	box-shadow: none;
        }
-	   ul{
-		   list-style: none;
+    ul{
+	list-style: none;
 	   }
 
-      	td {
+    td {
         display: inline-block; /*necessary*/
         color: white;
         margin: 1em;
@@ -86,7 +86,7 @@
        	text-decoration: none;
        	text-shadow: 1px 1px #000;
 	font-family: andale Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
-	     }
+    }
      a{
        	font-size: 1.3em;
        	letter-spacing: 3px;
@@ -124,19 +124,19 @@
     	left: -39px; /* change this value to one that suits you */
     	top: 37px; /* change this value to one that suits you */
 }
-		a.michelle:hover:after {
+    a.michelle:hover:after {
     	content: url(images/Michelle_Animation.gif); /* no need for qoutes */
     	z-index: 37;
-		position: absolute;
-		display: block;
+	position: absolute;
+	display: block;
     	left: -37px; /* change this value to one that suits you */
     	top: 37px; /* change this value to one that suits you */
 }
-		a.scott:hover:after {
+    a.scott:hover:after {
     	content: url(images/Scott_Animation.gif); /* no need for qoutes */
     	z-index: 37;
-		position: absolute;
-		display: block;
+	position: absolute;
+	display: block;
     	left: -48px; /* change this value to one that suits you */
     	top: 37px; /* change this value to one that suits you */
 }
@@ -455,7 +455,10 @@
   #orient{
       display:none;
   }
-  #AltNav{
+  #navNav{
+    display:none;
+  }
+  #mobile-vids-master{
     display:none;
   }
 
@@ -490,7 +493,12 @@
       aside{
         display:none;   
       }
-      li{
+    
+    a{
+        display: block;
+        }
+
+    li{
         border: none;
         color: white;
         background-color:none;
@@ -499,8 +507,13 @@
         padding-left: 1.3em;   
         box-shadow:none;
     }
+    ul{
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
       
-      #AltNav{
+      #navNav{
         display:block;
         position: absolute;
         z-index: 2;
@@ -509,48 +522,51 @@
       #mobile-title{  
         font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
         color: white;
+        white-space: pre;
         margin-left: .2em;
+        margin-top: -9%;
+        font-size: 80%;
         }
 
+/*    #mobile-nav{
+        float:left;
+        margin-bottom:15%;
+        }
+ 
+    #mobile-nav button{
+        padding: .5em; 
+    }
+*/    
+    #mobile-vids-master{
+        display: block;
+    }
     #mobile-vids{
-        margin-top: 65%;
+    background-color: red;
+    }
+    #vidgroup
+    {
+        position: absolute;
+        bottom: 0px;
+        z-index: 2;
+    }
+    #mobile-vids a{
+        display: block;
         bottom: 8px;
+        border: 2px solid white;
+        margin: 5%;
+        padding-top: 5%;
+        padding-right: 36%;
+        padding-left: 11%;
     }
 
-    #mobile-vids li{
-        float:left;
-        border: 2px solid white;
-        height: 25px;
-        margin 3px;
-        }
-    #mobile-vids li a{
-        font-size: .90em;
-        margin-left:-15px;
-    }    
-
-    li a{
-        display: block;
-        }
-
-     ul{
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-      }
-
-      #mobile-nav{
-        position: absolute;
-        z-index: 2;
-        margin-top: 5%;
-        }
-     
-  .a-enter-vr {
+    .a-enter-vr {
       width: 100%;
       height: 10%;
       position: absolute;
       left: 45em;
       bottom: 20px;
   }
+
     /*Remove prior settings*/
        #PIMGTitle{
          display:none;
