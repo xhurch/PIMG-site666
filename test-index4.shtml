@@ -36,7 +36,11 @@
    <meta property="og:title" content="Portland Immersive Media Group" />
    <meta property="og:url" content="vrspa.club" />
 <<<<<<< HEAD
+<<<<<<< HEAD
    <meta property="og:description" content="Portland Immersive Media Group" /></meta>
+=======
+   <meta property="og:description" content="Portland Immersive Media Group" />
+>>>>>>> 0078f02b6105698783d00d8ee074c1ce28211ccb
 =======
    <meta property="og:description" content="Portland Immersive Media Group" />
 >>>>>>> 0078f02b6105698783d00d8ee074c1ce28211ccb
@@ -59,7 +63,11 @@
     <link rel="prefetch" src="neko.html">
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     <script>
+=======
+    <!-- <script>
+>>>>>>> 0078f02b6105698783d00d8ee074c1ce28211ccb
 =======
     <!-- <script>
 >>>>>>> 0078f02b6105698783d00d8ee074c1ce28211ccb
@@ -74,8 +82,11 @@
              });
          });     
 <<<<<<< HEAD
+<<<<<<< HEAD
         </script>
 =======
+=======
+>>>>>>> 0078f02b6105698783d00d8ee074c1ce28211ccb
         </script> -->
         
         <script>
@@ -89,6 +100,9 @@ function myFunction() {
 }
 </script>
         
+<<<<<<< HEAD
+>>>>>>> 0078f02b6105698783d00d8ee074c1ce28211ccb
+=======
 >>>>>>> 0078f02b6105698783d00d8ee074c1ce28211ccb
       </head>
   <body> 
@@ -116,7 +130,11 @@ function myFunction() {
             <div id="navMain"> 
               <div class="w3-col s12 m1 w3-center">
 <<<<<<< HEAD
+<<<<<<< HEAD
                 <li class="nav-list" id="about"><button data-id="aboot" class="menu">About</button></li>
+=======
+                <li class="nav-list" id="about"><button onclick="myFunction()">About</button></li>
+>>>>>>> 0078f02b6105698783d00d8ee074c1ce28211ccb
 =======
                 <li class="nav-list" id="about"><button onclick="myFunction()">About</button></li>
 >>>>>>> 0078f02b6105698783d00d8ee074c1ce28211ccb
@@ -132,6 +150,11 @@ function myFunction() {
               </div>
             </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+            
+            	<div id="myDIV">This is my DIV element.</div>
+>>>>>>> 0078f02b6105698783d00d8ee074c1ce28211ccb
 =======
             
             	<div id="myDIV">This is my DIV element.</div>
@@ -180,6 +203,7 @@ function myFunction() {
       
 <!--3: MobileNav-->
 <<<<<<< HEAD
+<<<<<<< HEAD
     <nav id="navNav">
         <div class="w3-row">
             <div class="w3-col s12">
@@ -227,6 +251,8 @@ function myFunction() {
         </div>
     </div>
 =======
+=======
+>>>>>>> 0078f02b6105698783d00d8ee074c1ce28211ccb
     <nav id="AltNav">
         <div id="w3-row">
             <div id="w3-col s12">
@@ -263,6 +289,9 @@ function myFunction() {
             </div>
          </div>     
     </nav>     
+<<<<<<< HEAD
+>>>>>>> 0078f02b6105698783d00d8ee074c1ce28211ccb
+=======
 >>>>>>> 0078f02b6105698783d00d8ee074c1ce28211ccb
 <!--/3-->
 
