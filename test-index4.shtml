@@ -35,7 +35,11 @@
 
    <meta property="og:title" content="Portland Immersive Media Group" />
    <meta property="og:url" content="vrspa.club" />
+<<<<<<< HEAD
    <meta property="og:description" content="Portland Immersive Media Group" /></meta>
+=======
+   <meta property="og:description" content="Portland Immersive Media Group" />
+>>>>>>> 0078f02b6105698783d00d8ee074c1ce28211ccb
    <meta name="twitter:card" content="product"></meta>
    <meta name="twitter:site" content="@pdximmersive"></meta>
    <meta name="twitter:creator" content="@pdximmersive"></meta>
@@ -54,7 +58,11 @@
     <link rel="preload" src="neko.html">
     <link rel="prefetch" src="neko.html">
     
+<<<<<<< HEAD
     <script>
+=======
+    <!-- <script>
+>>>>>>> 0078f02b6105698783d00d8ee074c1ce28211ccb
          $(document).ready(function(){
              $(".container").hide();
              $(".menu").click(function(){
@@ -65,7 +73,23 @@
                 $(this).parent().parent().hide();
              });
          });     
+<<<<<<< HEAD
         </script>
+=======
+        </script> -->
+        
+        <script>
+function myFunction() {
+    var x = document.getElementById('myDIV');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+        
+>>>>>>> 0078f02b6105698783d00d8ee074c1ce28211ccb
       </head>
   <body> 
 
@@ -91,7 +115,11 @@
               <!-- NAV -->  
             <div id="navMain"> 
               <div class="w3-col s12 m1 w3-center">
+<<<<<<< HEAD
                 <li class="nav-list" id="about"><button data-id="aboot" class="menu">About</button></li>
+=======
+                <li class="nav-list" id="about"><button onclick="myFunction()">About</button></li>
+>>>>>>> 0078f02b6105698783d00d8ee074c1ce28211ccb
               </div>  
               <div class="w3-col s12 m1 w3-center">
                 <li class="nav-list" id="members"><button data-id="group" class="menu">Group</button></li>
@@ -103,6 +131,11 @@
                 <li class="nav-list" id="contacts"><button data-id="contact" class="menu">Contact</button></li>
               </div>
             </div>
+<<<<<<< HEAD
+=======
+            
+            	<div id="myDIV">This is my DIV element.</div>
+>>>>>>> 0078f02b6105698783d00d8ee074c1ce28211ccb
              
             <!-- ICONS -->
               <div class="w3-col m3 w3-center">  
@@ -146,6 +179,7 @@
 
       
 <!--3: MobileNav-->
+<<<<<<< HEAD
     <nav id="navNav">
         <div class="w3-row">
             <div class="w3-col s12">
@@ -192,6 +226,44 @@
          </div>  
         </div>
     </div>
+=======
+    <nav id="AltNav">
+        <div id="w3-row">
+            <div id="w3-col s12">
+                <div id="mobile-title">
+                <a href="http://pdximmersive.media">Portland Immersive Media Group</a>
+            </div>
+        </div>
+        <div id="w3-row">
+            <div id="w3-col s12">
+                <div id="mobile-nav">
+                    <ul>
+                        <li><button data-id="aboot" class="menu">About</button></li>
+                        <li><button data-id="group" class="menu">Group</button></li>
+                        <li><button data-id="ea" class="menu">Awards &amp;<br> Exhibits</button></li>
+                        <li><button data-id="contact" class="menu">Contact</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+         <div id="w3-row">
+            <div id="w3-col s12">
+                <div id="mobile-vids">
+                        <ul>                                      
+                             <li><a href="leafblower.shtml">01</a></li>
+                             <li><a href="leafblowerballroom.shtml">02</a></li>
+                             <li><a href="maskgallery.shtml">03</a></li>
+                             <li><a href="ontologyofobjects.shtml">04</a></li>
+                             <li> <a href="skybaptism.shtml">05</a></li>
+                             <li><a href="roseroom.shtml">06</a></li>
+                             <li><a href="maryvoid.shtml">07</a></li>
+                        </ul>
+                    </div>    
+                </div>
+            </div>
+         </div>     
+    </nav>     
+>>>>>>> 0078f02b6105698783d00d8ee074c1ce28211ccb
 <!--/3-->
 
 
